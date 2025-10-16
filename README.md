@@ -80,10 +80,6 @@ The top 10 registered editors are :
  'Mzajac']
 ```
 
-#### Block Info 
-
-In this top 10, no user are blocked. Those users seem to be WP large contributors that are mostly not weaponsing and don't focus only on Ukraine / Russia article.
-
 #### Proportion regarding Ur/Ru articles
 
 I used a small and large sets of ukraine/russia related keywords in order to filter articles that are related to Ur / Ru. 
@@ -142,21 +138,37 @@ ukraine_keywords_large = [
 I did the analysis for a sub sample of 1000 analysis per user and for all the edits the user made since the creation of his account. 
 
 With the small set for 1000 edits per user :
-![Proportion_of_1000_Wikipedia_Edits_per_User_on_Ur_related_Articles_small](plots/Proportion_of_10^3_Wikipedia_Edits_per_User_on_Ur_related_Articles_small.png)
+
+<p align="center">
+<img src="plots/Proportion_of_10^3_Wikipedia_Edits_per_User_on_Ur_related_Articles_small.png" alt="Plot of edits" width="500"/>
+</p>
 
 With the large set for 1000 edits per user :
-![Proportion_of_1000_Wikipedia_Edits_per_User_on_Ur_related_Articles_large](plots/Proportion_of_10^3_Wikipedia_Edits_per_User_on_Ur_related_Articles_large.png)
+
+<p align="center">
+<img src="plots/Proportion_of_10^3_Wikipedia_Edits_per_User_on_Ur_related_Articles_large.png" alt="Plot of edits" width="500"/>
+</p>
 
 With the small set for every edits per user :
-![Proportion_of_all_Wikipedia_Edits_per_User_on_Ur_related_Articles_small](plots/Proportion_of_all_Wikipedia_Edits_per_User_on_Ur_related_Articles_small.png)
+
+<p align="center">
+<img src="plots/Proportion_of_all_Wikipedia_Edits_per_User_on_Ur_related_Articles_small.png" alt="Plot of edits" width="500"/>
+</p>
 
 With the large set for every edits per user :
-![Proportion_of_all_Wikipedia_Edits_per_User_on_Ur_related_Articles_large](plots/Proportion_of_all_Wikipedia_Edits_per_User_on_Ur_related_Articles_large.png)
 
+<p align="center">
+<img src="plots/Proportion_of_all_Wikipedia_Edits_per_User_on_Ur_related_Articles_large.png" alt="Plot of edits" width="500"/>
+</p>
 
 #### Weaponsing edits vs non weaponising edits per year for top 10 for only Ur/Ru related article
 
-![Map of unregistered editors](plots/Weaponised_vs_Non-Weaponised_Edits_per_Year_Top_10_Users.png)
+<img src="plots/Weaponised_vs_Non-Weaponised_Edits_per_Year_Top_10_Users.png" alt="Plot of edits" width="500"/>
+
+With this graph, once can see that user like Dbachmann does not at all focus his edits on Ur/Ru related topics but when he does, he is more than everyone else weaponising. 
+
+More generally, those users seem to be WP large contributors that are mostly not weaponsing and don't focus only on Ukraine / Russia article.
+
 
 
 #### Groups
@@ -167,6 +179,14 @@ With the large set for every edits per user :
 | `user`              | Registered users  | account created      | ✅                             | ❌                                 |
 | `autoconfirmed`     | Older + ≥10 edits | ~4 days, ≥10 edits   | ✅                             | ❌                                 |
 | `extendedconfirmed` | Sustained editors | ≥30 days, ≥500 edits | ✅                             | ✅                                 |
+
+
+Typical questions for group user :
+*
+*
+*
+
+
 
 
 ### Registered vs IP adress users
@@ -182,6 +202,10 @@ Although the number of registered and anonymous users is roughly comparable, the
 
 This implies that registered users contribute over four times more edits than anonymous users. Thus we can raise the following research question
 > **Are anonymous (IP address) users more likely to produce weaponising edits compared to registered users due to their anonymity?**
+
+The graph below shows that in proportion, IP adress user are slighlty (by x points) more weaponsing than registered user. They feel maybe more confortable to weaponise under anonymity.
+
+![Weap vs Non Weap edits by user type](plots/Weaponised_vs_Non-Weaponised_Edits_by_User_Type.png)
 
 By using an IP Geolocation API, we can check wether the used IP adress is from a proxy or not and where the edit is located :
 
