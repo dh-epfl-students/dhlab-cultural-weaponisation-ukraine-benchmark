@@ -23,16 +23,13 @@ These observations motivate a deeper investigation into **editor behavior and co
 
 ## 2. Research Structure  
 
-This midterm analysis is divided into three complementary parts:
+This midterm analysis is divided into two complementary parts:
 
 1. **Weaponised vs. Non-Weaponised User Analysis**  
    A global overview of editing patterns among a sample of **2,454 unique users**, distinguishing between edits classified as *weaponising* or *non-weaponising*.
 
 2. **Weaponising Users — Fine-Grained Analysis**  
    A focused investigation of **300 unique users** from the *fine-grained dataset*, restricted to edits identified as weaponising by the language model.
-
-3. **User Case Studies (Data Stories)**  
-   Qualitative exploration of **two individual users** with consistent editing activity across Ukraine-related pages.
 
 ---
 
@@ -62,7 +59,7 @@ There is a clear correlation with the first graph, showing more edits on crucial
  'unknown_weaponised_edits': 31}
 ```
 
-There is a lot we can analyse coming from this metadata. We first start to focus on the **registered** users and specially the top 10 most frequeent editors among the 1351 registered users.
+There is a lot we can analyse coming from this metadata. We first start to focus on the **registered** users and specially the top 10 most frequent editors among the 1351 registered users.
 
 ### Top 10 users general info
 
@@ -82,7 +79,8 @@ The top 10 registered editors are :
 
 #### Proportion regarding Ur/Ru articles
 
-I used a small and large sets of ukraine/russia related keywords in order to filter articles that are related to Ur / Ru. 
+To identify how much each of the top 10 users focused on Ukraine- or Russia-related content, I filtered their edited articles using both small and large sets of keywords related to these two countries.
+
 ```python
 ukraine_keywords_small = [
     "ukraine", "ukrainian", "kyiv", "kiev", "crimea", "crimean", "kuban", "donbas", "donetsk", "luhansk",
@@ -135,7 +133,7 @@ ukraine_keywords_large = [
 ]
 ```
 
-I did the analysis for a sub sample of 1000 analysis per user and for all the edits the user made since the creation of his account. 
+I did the analysis for a sub sample of 1000 analysis per user and for all the edits the user made since the creation of his account using Wikipedia's user API. 
 
 With the small set for 1000 edits per user :
 
@@ -167,10 +165,8 @@ With the large set for every edits per user :
 <img src="plots/Weaponised_vs_Non-Weaponised_Edits_per_Year_Top_10_Users.png" alt="Plot of edits" width="500"/>
 </p>
 
-With this graph, once can see that user like Dbachmann does not at all focus his edits on Ur/Ru related topics but when he does, he is more than everyone else weaponising. 
-
-More generally, those users seem to be WP large contributors that are mostly not weaponsing and don't focus only on Ukraine / Russia article.
-
+The graph shows that while Dbachmann seldom edits Ukraine- or Russia-related pages, those few edits are more likely to be weaponising compared to others.
+In general, these top users are broad Wikipedia contributors, with limited focus on Ukraine/Russia topics and little evidence of weaponising behaviour.
 
 
 #### Groups
@@ -182,6 +178,7 @@ More generally, those users seem to be WP large contributors that are mostly not
 | `autoconfirmed`     | Older + ≥10 edits | ~4 days, ≥10 edits   | ✅                             | ❌                                 |
 | `extendedconfirmed` | Sustained editors | ≥30 days, ≥500 edits | ✅                             | ✅                                 |
 
+> hard to get some relevant information for only the top 10 users. Maybe will me more relevant when focus only on the weaponising users for the fiengrained file.
 
 ### Registered vs IP adress users
 
@@ -197,7 +194,7 @@ Although the number of registered and anonymous users is roughly comparable, the
 This implies that registered users contribute over four times more edits than anonymous users. Thus we can raise the following research question
 > **Are anonymous (IP address) users more likely to produce weaponising edits compared to registered users due to their anonymity?**
 
-The graph below shows that in proportion, IP adress user are slighlty (by x points) more weaponsing than registered user. They feel maybe more confortable to weaponise under anonymity.
+The graph below shows that in proportion, IP adress user are slighlty more weaponsing than registered user. They feel maybe more confortable to weaponise under anonymity.
 
 ![Weap vs Non Weap edits by user type](plots/Weaponised_vs_Non-Weaponised_Edits_by_User_Type.png)
 
