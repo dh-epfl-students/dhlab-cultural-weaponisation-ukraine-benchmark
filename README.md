@@ -141,10 +141,23 @@ ukraine_keywords_large = [
 
 I did the analysis for a sub sample of 1000 analysis per user and for all the edits the user made since the creation of his account. 
 
+With the small set for 1000 edits per user :
 ![Proportion_of_1000_Wikipedia_Edits_per_User_on_Ur_related_Articles_small](plots/Proportion_of_10^3_Wikipedia_Edits_per_User_on_Ur_related_Articles_small.png)
+
+With the large set for 1000 edits per user :
 ![Proportion_of_1000_Wikipedia_Edits_per_User_on_Ur_related_Articles_large](plots/Proportion_of_10^3_Wikipedia_Edits_per_User_on_Ur_related_Articles_large.png)
+
+With the small set for every edits per user :
 ![Proportion_of_all_Wikipedia_Edits_per_User_on_Ur_related_Articles_small](plots/Proportion_of_all_Wikipedia_Edits_per_User_on_Ur_related_Articles_small.png)
+
+With the large set for every edits per user :
 ![Proportion_of_all_Wikipedia_Edits_per_User_on_Ur_related_Articles_large](plots/Proportion_of_all_Wikipedia_Edits_per_User_on_Ur_related_Articles_large.png)
+
+
+#### Weaponsing edits vs non weaponising edits per year for top 10
+
+![Map of unregistered editors](plots/Weaponised vs Non-Weaponised Edits per Year — Top 10 Users.png)
+
 
 #### Groups
 
