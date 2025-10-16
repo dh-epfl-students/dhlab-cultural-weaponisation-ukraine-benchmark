@@ -6,7 +6,7 @@ In the file `Wikipedia_articles.txt`, we gathered around **340 Wikipedia article
 
 By retrieving all the edits made to these articles, we aim to identify **patterns of activity** — for instance, peaks in editing activity during major historical or geopolitical events.  
 
-![Wikipedia edits per year per article](image.png)
+![Wikipedia edits per year per article](plots/wp_edits_per_year_per_article.png)
 
 ### Observed Peaks of Activity
 
