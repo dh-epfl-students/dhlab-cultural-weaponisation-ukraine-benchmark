@@ -200,7 +200,7 @@ The graph below shows that in proportion, IP adress user are slighlty more weapo
 
 By using an IP Geolocation API, we can check wether the used IP adress is from a proxy or not and where the edit is located :
 
-🌍 [View Interactive IP Map](https://github.com/dh-epfl-students/dhlab-cultural-weaponisation-ukraine-benchmark/blob/main/plots/ip_locations_map.html)
+🌍 [View Interactive IP Map](https://maximegrmbs.github.io/dhlab-cultural-weaponisation-ukraine-benchmark/blob/main/plots/ip_locations_map.html)
 
 
 ---
