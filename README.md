@@ -203,7 +203,8 @@ The graph below shows that in proportion, IP adress user are slighlty (by x poin
 
 By using an IP Geolocation API, we can check wether the used IP adress is from a proxy or not and where the edit is located :
 
-![Map of unregistered editors](path/to/image.png)
+🌍 [View Interactive IP Map](https://github.com/dh-epfl-students/dhlab-cultural-weaponisation-ukraine-benchmark/blob/main/plots/ip_locations_map.html)
+
 
 ---
 
