@@ -6,7 +6,7 @@ In the file `Wikipedia_articles.txt`, we gathered around **340 Wikipedia article
 
 By retrieving all the edits made to these articles, we aim to identify **patterns of activity** — for instance, peaks in editing activity during major historical or geopolitical events.  
 
-![Wikipedia edits per year per article](path/to/image.png)
+![Wikipedia edits per year per article](image.png)
 
 ### Observed Peaks of Activity
 
@@ -41,9 +41,9 @@ This midterm analysis is divided into three complementary parts:
 This section is based on the file `matched_edits_all.csv`, produced by **Emanuela**, which aligns fine-grained edits with corresponding user data from the *LLM Results* folder.  
 One can first check how *Weaponising* VS *Non weaponsing* edits are distributed over time.
 
-![Map of unregistered editors](path/to/image.png)
+![Map of unregistered editors](plots/W_VS_NW_edits_per_year.png)
 
-There is a clear correlation  withg the first graph, showing more edits on crucial geopolitical periods as well as a peak of wweaponsing edits. 
+There is a clear correlation with the first graph, showing more edits on crucial geopolitical periods as well as a peak of weaponsing edits. 
 
 ### Metadata of the `matched_edits_all.csv`
 
@@ -85,6 +85,7 @@ The top 10 registered editors are :
 In this top 10, no user are blocked. Those users seem to be WP large contributors that are mostly not weaponsing and don't focus only on Ukraine / Russia article.
 
 #### Proportion regarding Ur/Ru articles
+
 I used a small and large sets of ukraine/russia related keywords in order to filter articles that are related to Ur / Ru. 
 ```python
 ukraine_keywords_small = [
@@ -140,10 +141,10 @@ ukraine_keywords_large = [
 
 I did the analysis for a sub sample of 1000 analysis per user and for all the edits the user made since the creation of his account. 
 
-![Proportion_of_1000_Wikipedia_Edits_per_User_on_Ur_related_Articles_small](path/to/image.png)
-![Proportion_of_1000_Wikipedia_Edits_per_User_on_Ur_related_Articles_large](path/to/image.png)
-![Proportion_of_all_Wikipedia_Edits_per_User_on_Ur_related_Articles_small](path/to/image.png)
-![Proportion_of_all_Wikipedia_Edits_per_User_on_Ur_related_Articles_large](path/to/image.png)
+![Proportion_of_1000_Wikipedia_Edits_per_User_on_Ur_related_Articles_small](plots/Proportion_of_10^3_Wikipedia_Edits_per_User_on_Ur_related_Articles_small.png)
+![Proportion_of_1000_Wikipedia_Edits_per_User_on_Ur_related_Articles_large](plots/Proportion_of_10^3_Wikipedia_Edits_per_User_on_Ur_related_Articles_large.png)
+![Proportion_of_all_Wikipedia_Edits_per_User_on_Ur_related_Articles_small](plots/Proportion_of_all_Wikipedia_Edits_per_User_on_Ur_related_Articles_small.png)
+![Proportion_of_all_Wikipedia_Edits_per_User_on_Ur_related_Articles_large](plots/Proportion_of_all_Wikipedia_Edits_per_User_on_Ur_related_Articles_large.png)
 
 #### Groups
 
