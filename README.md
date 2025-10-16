@@ -154,9 +154,9 @@ With the large set for every edits per user :
 ![Proportion_of_all_Wikipedia_Edits_per_User_on_Ur_related_Articles_large](plots/Proportion_of_all_Wikipedia_Edits_per_User_on_Ur_related_Articles_large.png)
 
 
-#### Weaponsing edits vs non weaponising edits per year for top 10
+#### Weaponsing edits vs non weaponising edits per year for top 10 for only Ur/Ru related article
 
-![Map of unregistered editors](plots/Weaponised vs Non-Weaponised Edits per Year — Top 10 Users.png)
+![Map of unregistered editors](plots/Weaponised_vs_Non-Weaponised_Edits_per_Year_Top_10_Users.png)
 
 
 #### Groups
