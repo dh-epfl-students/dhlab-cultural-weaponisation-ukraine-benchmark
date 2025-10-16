@@ -43,7 +43,7 @@ One can first check how *Weaponising* VS *Non weaponsing* edits are distributed 
 
 ![Map of unregistered editors](plots/W_VS_NW_edits_per_year.png)
 
-There is a clear correlation with the first graph, showing more edits on crucial geopolitical periods as well as a peak of weaponsing edits. 
+There is a clear correlation with the first graph, showing more edits on crucial geopolitical periods as well as a peak of weaponsing edits. No peaks are displayed for the 2022-2025 periods since no article in the dataset was about Russian large scale invasion in Ukraine.
 
 ### Metadata of the `matched_edits_all.csv`
 
@@ -163,7 +163,9 @@ With the large set for every edits per user :
 
 #### Weaponsing edits vs non weaponising edits per year for top 10 for only Ur/Ru related article
 
+<p align="center">
 <img src="plots/Weaponised_vs_Non-Weaponised_Edits_per_Year_Top_10_Users.png" alt="Plot of edits" width="500"/>
+</p>
 
 With this graph, once can see that user like Dbachmann does not at all focus his edits on Ur/Ru related topics but when he does, he is more than everyone else weaponising. 
 
@@ -179,14 +181,6 @@ More generally, those users seem to be WP large contributors that are mostly not
 | `user`              | Registered users  | account created      | ✅                             | ❌                                 |
 | `autoconfirmed`     | Older + ≥10 edits | ~4 days, ≥10 edits   | ✅                             | ❌                                 |
 | `extendedconfirmed` | Sustained editors | ≥30 days, ≥500 edits | ✅                             | ✅                                 |
-
-
-Typical questions for group user :
-*
-*
-*
-
-
 
 
 ### Registered vs IP adress users
