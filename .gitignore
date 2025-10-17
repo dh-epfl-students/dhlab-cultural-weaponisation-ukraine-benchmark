@@ -1,3 +1,4 @@
 .ipynb_checkpoints
-dataset/
 .DS_Store
+datas/interim/matched_edits_all.csv
+notebooks/user_contributions.json
