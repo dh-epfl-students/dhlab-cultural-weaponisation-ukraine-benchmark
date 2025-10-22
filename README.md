@@ -201,7 +201,7 @@ The graph below shows that in proportion, IP adress user are slighlty more weapo
 #### Quantify intensity
 
 One can continue to quantify the intensity of the edits by answering this next question : 
-> Does IP address are more like one time edit than registered user who seems to edit be more active in long-term.
+> Do IP addresses are more like one time edit than registered user who seems to edit be more active in long-term.
 
 > Do IP address editors are more concise and harmful than registered users ?
 We can perform a histogram of edits magbnitude per user type by checking the lenght of the ```changed_version``` vs the length of the ```inital_version```
@@ -209,7 +209,9 @@ We can perform a histogram of edits magbnitude per user type by checking the len
 By using the work of Dangzhi Zhao, we can use a ```controverersial```tag when webscraping the user talk page to detect debates/conflicts.
 They also used a cryptographic checksums : used to detect reverts (if two versions are identical, it means one editor reverted to an older state). One can check if the IP adresses are more likely to be reverted than the registered users. 
 
-#### Exploring netweorks 
+One can also assess the lexical polarity between weaponising edits between the two user type. By using 
+
+#### Exploring networks 
 
 User-Article bepartite graph → who edits whats. Joins the idea of creating a big map of user and articles to see potential clusters of editors.
 User-user projection → users connected if they edited the same article
