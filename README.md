@@ -168,7 +168,6 @@ With the large set for every edits per user :
 The graph shows that while Dbachmann seldom edits Ukraine- or Russia-related pages, those few edits are more likely to be weaponising compared to others.
 In general, these top users are broad Wikipedia contributors, with limited focus on Ukraine/Russia topics and little evidence of weaponising behaviour.
 
-
 #### Groups
 
 | Group               | Who it includes   | Typical criteria     | Can edit semi-protected pages? | Can edit extended-protected pages? |
@@ -220,21 +219,24 @@ The goal is to find potential echo-chambers. In order to do that, we can make tw
 See article from Jun Liu and Sanmay Das. 
 Since Das et. al showed that some people are waiting to being upgraded to administrators status in order to focus more on controversial WP articles and promote their own POV by editing the article or doing the police
 
-
-
-
-
-
 By using an IP Geolocation API, we can check wether the used IP adress is from a proxy or not and where the edit is located :
 
 🌍 [View Interactive IP Map](https://maximegrmbs.github.io/dhlab-cultural-weaponisation-ukraine-benchmark/blob/main/plots/ip_locations_map.html)
 
-
-
-
 ---
 
 ## 3. Weaponised User Analysis  
+
+
+
+## Track the .csv files 
+```
+all_user_profiles.csv             # Keeps the top10 user metadata gathered with WP user API.
+matched_edits_all.csv             # All the ngrams that matched with a weaponising or non weaponising edits.
+all_user_contribs_sub_n=1000.csv  # Sub-sample of 1000 contributions of top10 user gathered by WP user contrib API.
+all_user_contribs.csv             # All contributions of top10 user gathered by WP user contrib API.
+```
+
 
 
 
