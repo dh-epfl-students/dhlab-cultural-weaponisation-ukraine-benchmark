@@ -1,5 +1,7 @@
 # 🧾 Results — Midterm Analysis (28 Oct. 2025)
 
+---
+
 # 1. Motivation  
 
 In the file `Wikipedia_articles.txt`, we gathered around **340 Wikipedia articles** related to **Ukrainian and Russian culture, history, and politics**.  
@@ -19,8 +21,6 @@ Distinct peaks can be identified around several key periods:
 
 These observations motivate a deeper investigation into **editor behavior and content modification patterns**.
 
----
-
 # 2. Research Structure  
 
 This midterm analysis is divided into two complementary parts:
@@ -30,8 +30,6 @@ A. **Weaponised vs. Non-Weaponised User Analysis**
 
 B. **Weaponising Users — Fine-Grained Analysis**  
    A focused investigation of **400 unique users** from the *fine-grained dataset*, restricted to edits identified as weaponising by the language model.
-
----
 
 # 3. Weaponised vs. Non-Weaponised User Analysis  
 
@@ -201,7 +199,7 @@ The graph below shows that in proportion, IP adress user are slighlty more weapo
 <img src="plots/Weaponised_vs_Non-Weaponised_Edits_by_User_Type.png" alt="Plot of edits" width="500"/>
 </p>
 
-As we did for the top 10 registered users, we can also see how much edits and when the top 10 anonymous users are weaponising or not. As seen in the plot, we can see that the numbers of edits is way lower than the top 10 registered user and all of the top 10 IP adresse without exception are pnly editing during a single year, whcih is different than the registered users where the most of them are editing for a longer time frame.
+As we did for the top 10 registered users, we can also see how much edits and when the top 10 anonymous users are weaponising or not. As seen in the plot, we can see that the numbers of edits is way lower than the top 10 registered user and all of the top 10 IP adresses without exception are only editing during a **single** year. As seen previously, registered users are the most of them editing for a longer time frame.
 
 <p align="center">
 <img src="plots/Weaponised_vs_Non-Weaponised_Edits_per_Year_Top_10_Anonymous_Users.png" alt="Plot of edits" width="500"/>
@@ -209,9 +207,7 @@ As we did for the top 10 registered users, we can also see how much edits and wh
 
 By using an IP Geolocation API, we can check wether the used IP adress is from a proxy or not and where the edit is located :
 
-🌍 [View Interactive IP Map](https://maximegrmbs.github.io/dhlab-cultural-weaponisation-ukraine-benchmark/blob/main/plots/ip_locations_map.html)
-
---- 
+🌍 [View Interactive IP Map](https://maximegrmbs.github.io/dhlab-cultural-weaponisation-ukraine-benchmark/blob/main/plots/ip_locations_map.html) 
 
 # 4. Weaponised User Analysis  
 
@@ -251,7 +247,7 @@ The top 10 registered editors are :
  'Seryo93']
 ```
 
-As expected, no IP addresses appear in this top 10. Some usernames have already appeared in the previous ranking, suggesting that a few users are consistently active across different subsets of edits. One can may proove those kinf of behaviour in the next chapter "Graph".
+As expected, no IP addresses appear in this top 10. Some usernames have already appeared in the previous ranking, suggesting that a few users are consistently active across different subsets of edits. One can may proove those kinf of behaviour in the next chapter "Graph and Network Visualisation".
 
 To further characterise editing behaviour, we can ask:
 
