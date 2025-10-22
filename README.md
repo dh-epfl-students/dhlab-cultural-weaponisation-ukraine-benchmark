@@ -209,13 +209,14 @@ By using an IP Geolocation API, we can check wether the used IP adress is from a
 
 🌍 [View Interactive IP Map](https://maximegrmbs.github.io/dhlab-cultural-weaponisation-ukraine-benchmark/blob/main/plots/ip_locations_map.html)
 
----
+--- 
 
 ## 3. Weaponised User Analysis  
 
-Now that we worked on weap vs non weap edits for both registered user and non registered user, we can go one step deeper and only analyse the username that has been weaponsing with a pre-made classification. This means that we can also see which type of weaponisisng is made regarding the user type.  
+After analysing weaponised vs. non-weaponised edits for both registered and anonymous users, we can now go a step deeper and focus exclusively on the **users who have been classified as weaponising**.  
+This allows us to explore not only *who* is weaponising, but also *how* different types of users (registered vs. anonymous) engage in specific forms of weaponisation.  
 
-> Note : Unfortunately, I was not able to retrieve either the article nor the date of the edits.
+> **Note:** Unfortunately, I was not able to retrieve either the articles or the timestamps corresponding to the edits.
 
 ### Metadata of the `matched_edits_all.csv`
 
@@ -230,7 +231,7 @@ Now that we worked on weap vs non weap edits for both registered user and non re
  'num_registered_edits': 346}
 ```
 
-We have from this ```fg_user_known.csv```file almost 400 weaponising users, with 146 IP adress and 242 registered users. 
+From the ```fg_user_known.csv``` file, we identify almost 400 weaponising users — including 146 anonymous (IP-based) editors and 242 registered editors.
 
 ### Top 10 users general info
 
@@ -248,34 +249,29 @@ The top 10 registered editors are :
  'Seryo93']
 ```
 
-Again, no IP adress in the top but we can find some already seen username between this top 10 and the first one. 
-One can continue to quantify the intensity of the edits by answering this next question : 
-> Do IP addresses are more like one time edit than registered user who seems to edit be more active in long-term.
+As expected, no IP addresses appear in this top 10. Some usernames have already appeared in the previous ranking, suggesting that a few users are consistently active across different subsets of edits. One can may proove those kinf of behaviour in the next chapter "Graph".
+
+To further characterise editing behaviour, we can ask:
 
 > Do IP address editors are more concise and harmful than registered users ?
 
 ### Category of weaponisation per user type
 
 This categroy is driven by the following RQ:
+> How do registered and anonymous users differ in the type of weaponising strategies they employ?
 
+The graph below shows an interesting distribution of weaponisation categories across user types. On one hand, registered users appear to favour **Framing and Emphasis Shifts*** : a technique that often involve adding context, rewording, or subtly reframing information to promote a particular point of view. These users generally produce longer edits and seem to embed manipulative intent in more sophisticated ways.
+On the other hand, anonymous users (IPs) tend to rely more on **Selective Insertion**, a strategy that typically consists of short, targeted, and often more direct interventions. This pattern suggests that anonymous users might engage in quicker, less nuanced, but potentially more disruptive forms of manipulation.
 
-The following graph shows an interesting distribution of weaponsing category between the two user types. On hand hand, one can see clearly that Framing and Emphasing shift is prefered by registered users, as they are doing more edits, some of them classified as weaponsing or not and try to promote their own POV more smoothly. Also, the Framing and Emphasing shift category type suggests that registered user are more likely to write longer edits, by addding some context and parts in order to justify their new insertion. On the other hand, IP adress (anonymous users) prefer to use selective insertion. This may suggest the weap edits to be more concise, with less delicatness to be smooth and more harmeful. 
-
-<p>
+<p align='center'>
    <img src="plots/distrib_weap_edits_type_for_user_type.png" alt="Plot of edits" width="500"/>
 </p>
 
-
 #### A. Edit Magnitude
-
-```python
-edit_len_change = len(after) - len(before)
-rel_change = (len(after) - len(before)) / len(before)
-```
 
 In order to emphase more this behaviour, one can perform a boxplot of edits magbnitude per user type by checking the lenght of the ```changed_version``` vs the length of the ```inital_version``` :
 
-<p>
+<p align='center'>
    <img src="plots/Edit_Magnitude_by_User_Type.png" alt="Plot of edits" width="500"/>
 </p>
 
@@ -283,7 +279,7 @@ The median weaponising edit size was comparable between registered and anonymous
 This suggests that while both groups engage in manipulative micro-edits (e.g., terminology shifts or short insertions), registered users occasionally perform larger structural interventions — possibly reframing or rewriting entire paragraphs.
 In contrast, anonymous users tend to contribute smaller, localized edits (consistent with quick, opportunistic interventions).
 
-Maybe a good idea to assess the statistical significance of this results by calculating the p-value for both groups. So we suppose that the two groups does not provide a significal difference. By using Mann-Whitney U test i.e ```mannwhitneyu``` from scipy.stats module, we find a p-value of **0.03180**. Thus, we can be sure that those 2 groups provides no significanb difference less than 3% of the time. 
+Maybe a good idea to assess the statistical significance of this results by calculating the p-value for both groups. So we suppose that the two groups does not provide a significal difference. By using Mann-Whitney U test i.e ```mannwhitneyu``` from scipy.stats module, we find a p-value of **0.03180**. This indicates that the observed difference between the two groups would occur by chance less than 3% of the time — providing moderate evidence of a statistically meaningful distinction in their editing behaviours.
 
 #### B. Change Direction
 
@@ -303,7 +299,7 @@ Possible to analyse the sentiment polarity and toxicity by using model like ```c
 #### D. Behavioral Significance
 
 
-## Track the .csv files 
+## ANNEX : Track the .csv files 
 ```
 all_user_profiles.csv             # Keeps the top10 user metadata gathered with WP user API.
 matched_edits_all.csv             # All the ngrams that matched with a weaponising or non weaponising edits.
