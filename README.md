@@ -1,10 +1,10 @@
 # 🧾 Results — Midterm Analysis (28 Oct. 2025)
 
-## 1. Motivation  
+# 1. Motivation  
 
 In the file `Wikipedia_articles.txt`, we gathered around **340 Wikipedia articles** related to **Ukrainian and Russian culture, history, and politics**.  
 
-By retrieving all the edits made to these articles, we aim to identify **patterns of activity** — for instance, peaks in editing activity during major historical or geopolitical events.  
+By retrieving all the edits made to these articles, we aim to identify **patterns of activity**, for instance, peaks in editing activity during major historical or geopolitical events.  
 
 ![Wikipedia edits per year per article](plots/wp_edits_per_year_per_article.png)
 
@@ -21,19 +21,19 @@ These observations motivate a deeper investigation into **editor behavior and co
 
 ---
 
-## 2. Research Structure  
+# 2. Research Structure  
 
 This midterm analysis is divided into two complementary parts:
 
-1. **Weaponised vs. Non-Weaponised User Analysis**  
+A. **Weaponised vs. Non-Weaponised User Analysis**  
    A global overview of editing patterns among a sample of **2,454 unique users**, distinguishing between edits classified as *weaponising* or *non-weaponising*.
 
-2. **Weaponising Users — Fine-Grained Analysis**  
-   A focused investigation of **300 unique users** from the *fine-grained dataset*, restricted to edits identified as weaponising by the language model.
+B. **Weaponising Users — Fine-Grained Analysis**  
+   A focused investigation of **400 unique users** from the *fine-grained dataset*, restricted to edits identified as weaponising by the language model.
 
 ---
 
-## 3. Weaponised vs. Non-Weaponised User Analysis  
+# 3. Weaponised vs. Non-Weaponised User Analysis  
 
 This section is based on the file `matched_edits_all.csv`, produced by **Emanuela**, which aligns fine-grained edits with corresponding user data from the *LLM Results* folder.  
 One can first check how *Weaponising* VS *Non weaponsing* edits are distributed over time.
@@ -77,7 +77,7 @@ The top 10 registered editors are :
  'Mzajac']
 ```
 
-#### Proportion regarding Ur/Ru articles
+### Proportion regarding Ur/Ru articles
 
 To identify how much each of the top 10 users focused on Ukraine- or Russia-related content, I filtered their edited articles using both small and large sets of keywords related to these two countries.
 
@@ -133,7 +133,7 @@ ukraine_keywords_large = [
 ]
 ```
 
-I did the analysis for a sub sample of 1000 analysis per user and for all the edits the user made since the creation of his account using Wikipedia's user API. 
+I did the analysis for a sub sample of 1000 edits per user and for all the edits the user made since the creation of his account using Wikipedia's user API. 
 
 With the small set for 1000 edits per user :
 
@@ -159,6 +159,8 @@ With the large set for every edits per user :
 <img src="plots/Proportion_of_all_Wikipedia_Edits_per_User_on_Ur_related_Articles_large.png" alt="Plot of edits" width="500"/>
 </p>
 
+We can see that while the batche's size of edits doesn't really make any difference, the set's size of Ua/Ru keywords does. The small size really focus on Ua/Ru specific article while the large set is more about controversial/political/historical article in general. Now, we can select only the Ua/Ru related articles to see if a certain pattern shows off. 
+
 #### Weaponsing edits vs non weaponising edits per year for top 10 for only Ur/Ru related article
 
 <p align="center">
@@ -177,9 +179,9 @@ In general, these top users are broad Wikipedia contributors, with limited focus
 | `autoconfirmed`     | Older + ≥10 edits | ~4 days, ≥10 edits   | ✅                             | ❌                                 |
 | `extendedconfirmed` | Sustained editors | ≥30 days, ≥500 edits | ✅                             | ✅                                 |
 
-> hard to get some relevant information for only the top 10 users. Maybe will me more relevant when focus only on the weaponising users for the fiengrained file.
+> **Note:** hard to get some relevant information for only the top 10 users. Maybe will me more relevant when focus only on the weaponising users for the fiengrained file.
 
-### Registered vs IP adress users
+## Registered vs IP adress users
 
 The file, as displayed in the metadata, includes 2,454 unique users, of which:
 * 1,351 are registered accounts
@@ -211,7 +213,7 @@ By using an IP Geolocation API, we can check wether the used IP adress is from a
 
 --- 
 
-## 3. Weaponised User Analysis  
+# 4. Weaponised User Analysis  
 
 After analysing weaponised vs. non-weaponised edits for both registered and anonymous users, we can now go a step deeper and focus exclusively on the **users who have been classified as weaponising**.  
 This allows us to explore not only *who* is weaponising, but also *how* different types of users (registered vs. anonymous) engage in specific forms of weaponisation.  
@@ -255,7 +257,7 @@ To further characterise editing behaviour, we can ask:
 
 > Do IP address editors are more concise and harmful than registered users ?
 
-### Category of weaponisation per user type
+## Category of weaponisation per user type
 
 This categroy is driven by the following RQ:
 > How do registered and anonymous users differ in the type of weaponising strategies they employ?
@@ -267,7 +269,7 @@ On the other hand, anonymous users (IPs) tend to rely more on **Selective Insert
    <img src="plots/distrib_weap_edits_type_for_user_type.png" alt="Plot of edits" width="500"/>
 </p>
 
-#### A. Edit Magnitude
+### A. Edit Magnitude
 
 In order to emphase more this behaviour, one can perform a boxplot of edits magbnitude per user type by checking the lenght of the ```changed_version``` vs the length of the ```inital_version``` :
 
@@ -281,7 +283,7 @@ In contrast, anonymous users tend to contribute smaller, localized edits (consis
 
 Maybe a good idea to assess the statistical significance of this results by calculating the p-value for both groups. So we suppose that the two groups does not provide a significal difference. By using Mann-Whitney U test i.e ```mannwhitneyu``` from scipy.stats module, we find a p-value of **0.03180**. This indicates that the observed difference between the two groups would occur by chance less than 3% of the time — providing moderate evidence of a statistically meaningful distinction in their editing behaviours.
 
-#### B. Change Direction
+### B. Change Direction
 
 We can classify edits as Additions (positive Δlen), Deletions (negative Δlen), or Rewrites (± small Δlen) and compare distribution by user type. By folowing this question :
 
@@ -292,11 +294,11 @@ This graph shows no real
    <img src="plots/Edit_Direction_by_User_Type.png" alt="Plot of edits" width="500"/>
 </p>
 
-#### C. Lexical & Semantic Analysis
+### C. Lexical & Semantic Analysis
 
 Possible to analyse the sentiment polarity and toxicity by using model like ```cardiffnlp/twitter-roberta-base-sentiment```. 
 
-#### D. Behavioral Significance
+### D. Behavioral Significance
 
 
 ## ANNEX : Track the .csv files 
