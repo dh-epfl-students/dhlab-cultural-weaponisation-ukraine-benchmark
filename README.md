@@ -1,4 +1,4 @@
-# 🧾 Results — Midterm Analysis (16 Oct. 2025)
+# 🧾 Results — Midterm Analysis (28 Oct. 2025)
 
 ## 1. Motivation  
 
