@@ -209,16 +209,20 @@ We can perform a histogram of edits magbnitude per user type by checking the len
 By using the work of Dangzhi Zhao, we can use a ```controverersial```tag when webscraping the user talk page to detect debates/conflicts.
 They also used a cryptographic checksums : used to detect reverts (if two versions are identical, it means one editor reverted to an older state). One can check if the IP adresses are more likely to be reverted than the registered users. 
 
-One can also assess the lexical polarity between weaponising edits between the two user type. By using 
+One can also assess the lexical polarity between weaponising edits between the two user type. By using a sentiment analyser like VADER, we can output the distribution of the polarity score. 
 
 #### Exploring networks 
 
-User-Article bepartite graph → who edits whats. Joins the idea of creating a big map of user and articles to see potential clusters of editors.
-User-user projection → users connected if they edited the same article
-Temporal co-editing → users editing same pages in similar time windows (possible coordination)
-The goal is to find potential echo-chambers.
+The goal is to find potential echo-chambers. In order to do that, we can make two different graphs :
+* User-Article bepartite graph : who edits whats. Joins the idea of creating a big map of user and articles to see potential clusters of editors.
+* User-user projection : users connected if they edited the same article. Try to see if it's possible to do temporal co-editing : users editing same pages in similar time windows (possible coordination)
+
 See article from Jun Liu and Sanmay Das. 
 Since Das et. al showed that some people are waiting to being upgraded to administrators status in order to focus more on controversial WP articles and promote their own POV by editing the article or doing the police
+
+
+
+
 
 
 By using an IP Geolocation API, we can check wether the used IP adress is from a proxy or not and where the edit is located :
