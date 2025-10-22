@@ -253,7 +253,39 @@ One can continue to quantify the intensity of the edits by answering this next q
 > Do IP addresses are more like one time edit than registered user who seems to edit be more active in long-term.
 
 > Do IP address editors are more concise and harmful than registered users ?
-We can perform a histogram of edits magbnitude per user type by checking the lenght of the ```changed_version``` vs the length of the ```inital_version```
+
+### Category of weaponisation per user type
+
+This categroy is driven by the following RQ:
+
+
+The following graph shows an interesting distribution of weaponsijg category between the two user types. On hand hand, one can see clearly that Framing and Emphasing shift is prefered by registered users, as they are doing more edits, some of them classified as weaponsing or not and try to promote their own POV more smoothly. Also, the Framing and Emphasing shift category type suggests that registered user are more likely to write longer edits, by addding some context and parts in order to justify their new insertion. On the other hand, IP adress (anonymous users) prefer to use selective insertion. This may suggest the weap edits to be more concise, with less delicatness to be smooth and more harmeful. 
+
+<p>
+   <img src=''>
+</p>
+
+
+#### A. Edit Magnitude
+
+```python
+edit_len_change = len(after) - len(before)
+rel_change = (len(after) - len(before)) / len(before)
+```
+
+In order to emphase more this behaviour, one can perform a histogram of edits magbnitude per user type by checking the lenght of the ```changed_version``` vs the length of the ```inital_version``` :
+
+#### B. Change Direction
+
+We can classify edits as Additions (positive Δlen), Deletions (negative Δlen), or Rewrites (± small Δlen) and compare distribution by user type. By folowing this question :
+
+> Are IPs more likely to add new sentences (insertions) or remove content (deletions)?
+
+#### C. Lexical & Semantic Analysis
+
+Possible to analyse the sentiment polarity and toxicity by using model like ```cardiffnlp/twitter-roberta-base-sentiment```. 
+
+#### D. Behavioral Significance
 
 
 ## Track the .csv files 
