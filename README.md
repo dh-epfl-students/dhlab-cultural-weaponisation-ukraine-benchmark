@@ -198,9 +198,32 @@ The graph below shows that in proportion, IP adress user are slighlty more weapo
 
 ![Weap vs Non Weap edits by user type](plots/Weaponised_vs_Non-Weaponised_Edits_by_User_Type.png)
 
+#### Quantify intensity
+
+One can continue to quantify the intensity of the edits by answering this next question : 
+> Does IP address are more like one time edit than registered user who seems to edit be more active in long-term.
+
+> Do IP address editors are more concise and harmful than registered users ?
+We can perform a histogram of edits magbnitude per user type by checking the lenght of the ```changed_version``` vs the length of the ```inital_version```
+
+By using the work of Dangzhi Zhao, we can use a ```controverersial```tag when webscraping the user talk page to detect debates/conflicts.
+They also used a cryptographic checksums : used to detect reverts (if two versions are identical, it means one editor reverted to an older state). One can check if the IP adresses are more likely to be reverted than the registered users. 
+
+#### Exploring netweorks 
+
+User-Article bepartite graph → who edits whats. Joins the idea of creating a big map of user and articles to see potential clusters of editors.
+User-user projection → users connected if they edited the same article
+Temporal co-editing → users editing same pages in similar time windows (possible coordination)
+The goal is to find potential echo-chambers.
+See article from Jun Liu and Sanmay Das. 
+Since Das et. al showed that some people are waiting to being upgraded to administrators status in order to focus more on controversial WP articles and promote their own POV by editing the article or doing the police
+
+
 By using an IP Geolocation API, we can check wether the used IP adress is from a proxy or not and where the edit is located :
 
 🌍 [View Interactive IP Map](https://maximegrmbs.github.io/dhlab-cultural-weaponisation-ukraine-benchmark/blob/main/plots/ip_locations_map.html)
+
+
 
 
 ---
