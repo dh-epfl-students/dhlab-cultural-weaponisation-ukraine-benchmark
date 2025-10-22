@@ -197,6 +197,10 @@ The graph below shows that in proportion, IP adress user are slighlty more weapo
 
 ![Weap vs Non Weap edits by user type](plots/Weaponised_vs_Non-Weaponised_Edits_by_User_Type.png)
 
+As we did for the top 10 registered users, we can also see how much edits and when the top 10 anonymous users are weaponising or not. As seen in the plot, we can see that the numbers of edits is way lower than the top 10 registered user and all of the top 10 IP adresse without exception are pnly editing during a single year, whcih is different than the registered users where the most of them are editing for a longer time frame.
+
+![Weaponised_vs_Non-Weaponised_Edits_per_Year_Top_10_Anonymous_Users](plots/Weaponised_vs_Non-Weaponised_Edits_per_Year_Top_10_Anonymous_Users.png)
+
 #### Quantify intensity
 
 One can continue to quantify the intensity of the edits by answering this next question : 
