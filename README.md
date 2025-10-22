@@ -205,28 +205,6 @@ As we did for the top 10 registered users, we can also see how much edits and wh
 <img src="plots/Weaponised_vs_Non-Weaponised_Edits_per_Year_Top_10_Anonymous_Users.png" alt="Plot of edits" width="500"/>
 </p>
 
-#### Quantify intensity
-
-One can continue to quantify the intensity of the edits by answering this next question : 
-> Do IP addresses are more like one time edit than registered user who seems to edit be more active in long-term.
-
-> Do IP address editors are more concise and harmful than registered users ?
-We can perform a histogram of edits magbnitude per user type by checking the lenght of the ```changed_version``` vs the length of the ```inital_version```
-
-By using the work of Dangzhi Zhao, we can use a ```controverersial```tag when webscraping the user talk page to detect debates/conflicts.
-They also used a cryptographic checksums : used to detect reverts (if two versions are identical, it means one editor reverted to an older state). One can check if the IP adresses are more likely to be reverted than the registered users. 
-
-One can also assess the lexical polarity between weaponising edits between the two user type. By using a sentiment analyser like VADER, we can output the distribution of the polarity score. 
-
-#### Exploring networks 
-
-The goal is to find potential echo-chambers. In order to do that, we can make two different graphs :
-* User-Article bepartite graph : who edits whats. Joins the idea of creating a big map of user and articles to see potential clusters of editors.
-* User-user projection : users connected if they edited the same article. Try to see if it's possible to do temporal co-editing : users editing same pages in similar time windows (possible coordination)
-
-See article from Jun Liu and Sanmay Das. 
-Since Das et. al showed that some people are waiting to being upgraded to administrators status in order to focus more on controversial WP articles and promote their own POV by editing the article or doing the police
-
 By using an IP Geolocation API, we can check wether the used IP adress is from a proxy or not and where the edit is located :
 
 🌍 [View Interactive IP Map](https://maximegrmbs.github.io/dhlab-cultural-weaponisation-ukraine-benchmark/blob/main/plots/ip_locations_map.html)
@@ -235,6 +213,47 @@ By using an IP Geolocation API, we can check wether the used IP adress is from a
 
 ## 3. Weaponised User Analysis  
 
+Now that we worked on weap vs non weap edits for both registered user and non registered user, we can go one step deeper and only analyse the username that has been weaponsing with a pre-made classification. This means that we can also see which type of weaponisisng is made regarding the user type.  
+
+> Note : Unfortunately, I was not able to retrieve either the article nor the date of the edits.
+
+### Metadata of the `matched_edits_all.csv`
+
+```python
+{'total_edits': 513,
+ 'total_unique_users': 397,
+ 'num_bot_users': 9,
+ 'num_anonymous_users': 146,
+ 'num_registered_users': 242,
+ 'num_bot_edits': 11,
+ 'num_anonymous_edits': 156,
+ 'num_registered_edits': 346}
+```
+
+We have from this ```fg_user_known.csv```file almost 400 weaponising users, with 146 IP adress and 242 registered users. 
+
+### Top 10 users general info
+
+The top 10 registered editors are : 
+```python
+['Aleksandr Grigoryev',
+ 'RGloucester',
+ 'Yulia Romero',
+ 'Dbachmann',
+ 'Lvivske',
+ 'JASpencer',
+ 'Kuban kazak',
+ 'Irpen',
+ 'Mzajac',
+ 'Seryo93']
+```
+
+Again, no IP adress in the top but we can find some already seen username between this top 10 and the first one. 
+One can continue to quantify the intensity of the edits by answering this next question : 
+> Do IP addresses are more like one time edit than registered user who seems to edit be more active in long-term.
+
+> Do IP address editors are more concise and harmful than registered users ?
+We can perform a histogram of edits magbnitude per user type by checking the lenght of the ```changed_version``` vs the length of the ```inital_version```
 
 
 ## Track the .csv files 
@@ -243,6 +262,8 @@ all_user_profiles.csv             # Keeps the top10 user metadata gathered with 
 matched_edits_all.csv             # All the ngrams that matched with a weaponising or non weaponising edits.
 all_user_contribs_sub_n=1000.csv  # Sub-sample of 1000 contributions of top10 user gathered by WP user contrib API.
 all_user_contribs.csv             # All contributions of top10 user gathered by WP user contrib API.
+df_user_known.csv                 # All weap username matched in the finegrained2
+df_user_unknown.csv               # All the weap username not found in the finegrained2
 ```
 
 
