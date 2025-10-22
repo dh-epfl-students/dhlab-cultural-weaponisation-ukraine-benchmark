@@ -195,11 +195,15 @@ This implies that registered users contribute over four times more edits than an
 
 The graph below shows that in proportion, IP adress user are slighlty more weaponsing than registered user. They feel maybe more confortable to weaponise under anonymity.
 
-![Weap vs Non Weap edits by user type](plots/Weaponised_vs_Non-Weaponised_Edits_by_User_Type.png)
+<p align="center">
+<img src="plots/Weaponised_vs_Non-Weaponised_Edits_by_User_Type.png" alt="Plot of edits" width="500"/>
+</p>
 
 As we did for the top 10 registered users, we can also see how much edits and when the top 10 anonymous users are weaponising or not. As seen in the plot, we can see that the numbers of edits is way lower than the top 10 registered user and all of the top 10 IP adresse without exception are pnly editing during a single year, whcih is different than the registered users where the most of them are editing for a longer time frame.
 
-![Weaponised_vs_Non-Weaponised_Edits_per_Year_Top_10_Anonymous_Users](plots/Weaponised_vs_Non-Weaponised_Edits_per_Year_Top_10_Anonymous_Users.png)
+<p align="center">
+<img src="plots/Weaponised_vs_Non-Weaponised_Edits_per_Year_Top_10_Anonymous_Users.png" alt="Plot of edits" width="500"/>
+</p>
 
 #### Quantify intensity
 
