@@ -284,11 +284,12 @@ Maybe a good idea to assess the statistical significance of this results by calc
 We can classify edits as Additions (positive Δlen), Deletions (negative Δlen), or Rewrites (± small Δlen) and compare distribution by user type. By folowing this question :
 
 > Are IPs more likely to add new sentences (insertions) or remove content (deletions)?
-
-This graph shows no real 
+ 
 <p>
    <img src="plots/Edit_Direction_by_User_Type.png" alt="Plot of edits" width="500"/>
 </p>
+
+NEED TO NORMALIZE THE STUFF SINCE WE HAVE TWICE MORE REGISTERED THAN IP ADRESS !!!!!
 
 ### C. Lexical & Semantic Analysis
 
