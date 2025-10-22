@@ -259,10 +259,10 @@ One can continue to quantify the intensity of the edits by answering this next q
 This categroy is driven by the following RQ:
 
 
-The following graph shows an interesting distribution of weaponsijg category between the two user types. On hand hand, one can see clearly that Framing and Emphasing shift is prefered by registered users, as they are doing more edits, some of them classified as weaponsing or not and try to promote their own POV more smoothly. Also, the Framing and Emphasing shift category type suggests that registered user are more likely to write longer edits, by addding some context and parts in order to justify their new insertion. On the other hand, IP adress (anonymous users) prefer to use selective insertion. This may suggest the weap edits to be more concise, with less delicatness to be smooth and more harmeful. 
+The following graph shows an interesting distribution of weaponsing category between the two user types. On hand hand, one can see clearly that Framing and Emphasing shift is prefered by registered users, as they are doing more edits, some of them classified as weaponsing or not and try to promote their own POV more smoothly. Also, the Framing and Emphasing shift category type suggests that registered user are more likely to write longer edits, by addding some context and parts in order to justify their new insertion. On the other hand, IP adress (anonymous users) prefer to use selective insertion. This may suggest the weap edits to be more concise, with less delicatness to be smooth and more harmeful. 
 
 <p>
-   <img src=''>
+   <img src="plots/distrib_weap_edits_type_for_user_type.png" alt="Plot of edits" width="500"/>
 </p>
 
 
@@ -273,13 +273,28 @@ edit_len_change = len(after) - len(before)
 rel_change = (len(after) - len(before)) / len(before)
 ```
 
-In order to emphase more this behaviour, one can perform a histogram of edits magbnitude per user type by checking the lenght of the ```changed_version``` vs the length of the ```inital_version``` :
+In order to emphase more this behaviour, one can perform a boxplot of edits magbnitude per user type by checking the lenght of the ```changed_version``` vs the length of the ```inital_version``` :
+
+<p>
+   <img src="plots/Edit_Magnitude_by_User_Type.png" alt="Plot of edits" width="500"/>
+</p>
+
+The median weaponising edit size was comparable between registered and anonymous users, though registered users exhibited a greater variance and more extreme outliers.
+This suggests that while both groups engage in manipulative micro-edits (e.g., terminology shifts or short insertions), registered users occasionally perform larger structural interventions — possibly reframing or rewriting entire paragraphs.
+In contrast, anonymous users tend to contribute smaller, localized edits (consistent with quick, opportunistic interventions).
+
+Maybe a good idea to assess the statistical significance of this results by calculating the p-value for both groups. So we suppose that the two groups does not provide a significal difference. By using Mann-Whitney U test i.e ```mannwhitneyu``` from scipy.stats module, we find a p-value of **0.03180**. Thus, we can be sure that those 2 groups provides no significanb difference less than 3% of the time. 
 
 #### B. Change Direction
 
 We can classify edits as Additions (positive Δlen), Deletions (negative Δlen), or Rewrites (± small Δlen) and compare distribution by user type. By folowing this question :
 
 > Are IPs more likely to add new sentences (insertions) or remove content (deletions)?
+
+This graph shows no real 
+<p>
+   <img src="plots/Edit_Direction_by_User_Type.png" alt="Plot of edits" width="500"/>
+</p>
 
 #### C. Lexical & Semantic Analysis
 
