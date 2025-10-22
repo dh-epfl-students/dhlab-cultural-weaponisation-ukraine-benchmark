@@ -307,6 +307,7 @@ all_user_contribs_sub_n=1000.csv  # Sub-sample of 1000 contributions of top10 us
 all_user_contribs.csv             # All contributions of top10 user gathered by WP user contrib API.
 df_user_known.csv                 # All weap username matched in the finegrained2
 df_user_unknown.csv               # All the weap username not found in the finegrained2
+fg_user_known_delux.csv           # ll weap username matched in the finegrained2 with extra info for analysis
 ```
 
 
