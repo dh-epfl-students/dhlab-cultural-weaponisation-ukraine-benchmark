@@ -291,7 +291,7 @@ We can classify edits as Additions (positive Δlen), Deletions (negative Δlen),
 
 > Are IPs more likely to add new sentences (insertions) or remove content (deletions)?
  
-<p>
+<p align='center'>
    <img src="plots/edit_direction_per_user_type.png" alt="Plot of edits" width="500"/>
 </p>
 
@@ -299,6 +299,11 @@ We can classify edits as Additions (positive Δlen), Deletions (negative Δlen),
 
 Possible to analyse the sentiment polarity and toxicity by using model like ```cardiffnlp/twitter-roberta-base-sentiment```. 
 
+#5. Graph Analysis
+
+<p align='center'>
+   <img src='plots/graphi_screenshot.png' alt="Plot of edits" width="500"/>
+</p>
 
 ## ANNEX : Track the .csv files 
 ```
