@@ -299,7 +299,7 @@ We can classify edits as Additions (positive Δlen), Deletions (negative Δlen),
 
 Possible to analyse the sentiment polarity and toxicity by using model like ```cardiffnlp/twitter-roberta-base-sentiment```. 
 
-#5. Graph Analysis
+# 5. Graph Analysis
 
 <p align='center'>
    <img src='plots/graphi_screenshot.png' alt="Plot of edits" width="500"/>
