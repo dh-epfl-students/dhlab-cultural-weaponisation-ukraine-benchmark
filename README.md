@@ -286,10 +286,8 @@ We can classify edits as Additions (positive Δlen), Deletions (negative Δlen),
 > Are IPs more likely to add new sentences (insertions) or remove content (deletions)?
  
 <p>
-   <img src="plots/Edit_Direction_by_User_Type.png" alt="Plot of edits" width="500"/>
+   <img src="plots/edit_direction_per_user_type.png" alt="Plot of edits" width="500"/>
 </p>
-
-NEED TO NORMALIZE THE STUFF SINCE WE HAVE TWICE MORE REGISTERED THAN IP ADRESS !!!!!
 
 ### C. Lexical & Semantic Analysis
 
