@@ -253,7 +253,13 @@ To further characterise editing behaviour, we can ask:
 
 > Do IP address editors are more concise and harmful than registered users ?
 
-## Category of weaponisation per user type
+This global RQ can be answered and sub-divided in 4 themes :
+* A. the category of weaponisation by user type
+* B. the edit magnitude
+* C. the direction of the edit (addition or deletion)
+* D. The semantic and lexical analysis
+
+### A. Category of weaponisation per user type
 
 This categroy is driven by the following RQ:
 > How do registered and anonymous users differ in the type of weaponising strategies they employ?
@@ -265,7 +271,7 @@ On the other hand, anonymous users (IPs) tend to rely more on **Selective Insert
    <img src="plots/distrib_weap_edits_type_for_user_type.png" alt="Plot of edits" width="500"/>
 </p>
 
-### A. Edit Magnitude
+### B. Edit Magnitude
 
 In order to emphase more this behaviour, one can perform a boxplot of edits magbnitude per user type by checking the lenght of the ```changed_version``` vs the length of the ```inital_version``` :
 
@@ -279,7 +285,7 @@ In contrast, anonymous users tend to contribute smaller, localized edits (consis
 
 Maybe a good idea to assess the statistical significance of this results by calculating the p-value for both groups. So we suppose that the two groups does not provide a significal difference. By using Mann-Whitney U test i.e ```mannwhitneyu``` from scipy.stats module, we find a p-value of **0.03180**. This indicates that the observed difference between the two groups would occur by chance less than 3% of the time — providing moderate evidence of a statistically meaningful distinction in their editing behaviours.
 
-### B. Change Direction
+### C. Change Direction
 
 We can classify edits as Additions (positive Δlen), Deletions (negative Δlen), or Rewrites (± small Δlen) and compare distribution by user type. By folowing this question :
 
@@ -289,11 +295,9 @@ We can classify edits as Additions (positive Δlen), Deletions (negative Δlen),
    <img src="plots/edit_direction_per_user_type.png" alt="Plot of edits" width="500"/>
 </p>
 
-### C. Lexical & Semantic Analysis
+### D. Lexical & Semantic Analysis
 
 Possible to analyse the sentiment polarity and toxicity by using model like ```cardiffnlp/twitter-roberta-base-sentiment```. 
-
-### D. Behavioral Significance
 
 
 ## ANNEX : Track the .csv files 
