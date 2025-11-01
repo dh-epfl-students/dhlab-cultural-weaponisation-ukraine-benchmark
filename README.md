@@ -305,6 +305,32 @@ Possible to analyse the sentiment polarity and toxicity by using model like ```c
    <img src='plots/graphi_screenshot.png' alt="Plot of edits" width="500"/>
 </p>
 
+# 6. Control Group — Strengthening the Foundations
+To ensure that the observed patterns of “weaponising behaviour” are not simply artifacts of Wikipedia’s general editing dynamics, I introduce a Control Group composed of non-politicised articles primarily related to music (genres, instruments, musicians, venues, etc.).
+This new dataset will allow direct comparison between politically sensitive topics (e.g., Ukrainian/Russian culture, history, and politics) and neutral cultural domains (e.g., pop, jazz, classical music).
+By doing so, we aim to determine whether behavioural features previously attributed to weaponisation are unique to politicised contexts or merely reflect standard Wikipedia editing variability.
+
+
+## Research Objective
+The control group introduces a comparative framework that allows for statistical and behavioural baselines.
+Concretely, we can now ask:
+> Are anonymous (IP) and registered users behaving differently in general, or only in politicised contexts?
+This comparison will help determine whether patterns such as higher proportions of weaponising edits, temporal clustering, or framing strategies are specific to contentious geopolitical domains or simply part of Wikipedia’s organic editing ecology.
+
+## Planned Analyses
+The same analytical pipeline used for the Ukrainian dataset will be applied to the control corpus.
+Key comparisons include:
+| Analytical Dimension          | Hypothesis                                                                    | Metric                                  |
+| ----------------------------- | ----------------------------------------------------------------------------- | --------------------------------------- |
+| **Edit Volume per User Type** | Registered users dominate across all domains                                  | # of edits per user type                |
+| **Temporal Patterns**         | Political articles show event-correlated spikes; music articles remain stable | Edits/year timeline                     |
+| **Edit Magnitude**            | Politicised pages show larger deltas (rewrites, reframing)                    | Δlen (after–before) distribution        |
+| **Category of Change**        | Framing and selective insertion more frequent in politicised corpus           | Category frequency                      |
+| **Anonymity Behaviour**       | IP users are more aggressive in politicised pages than in neutral ones        | Ratio of weaponising edits by user type |
+| **Network Structure**         | Politicised networks more clustered and polarized                             | Graph density, modularity               |
+| **Language & Sentiment**      | Weaponising edits show stronger affective tone or bias                        | Sentiment polarity / toxicity           |
+
+
 ## ANNEX : Track the .csv files 
 ```
 all_user_profiles.csv             # Keeps the top10 user metadata gathered with WP user API.
