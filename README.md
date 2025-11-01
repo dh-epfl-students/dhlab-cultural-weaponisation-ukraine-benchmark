@@ -315,6 +315,7 @@ By doing so, we aim to determine whether behavioural features previously attribu
 The control group introduces a comparative framework that allows for statistical and behavioural baselines.
 Concretely, we can now ask:
 > Are anonymous (IP) and registered users behaving differently in general, or only in politicised contexts?
+
 This comparison will help determine whether patterns such as higher proportions of weaponising edits, temporal clustering, or framing strategies are specific to contentious geopolitical domains or simply part of Wikipedia’s organic editing ecology.
 
 ## Planned Analyses
