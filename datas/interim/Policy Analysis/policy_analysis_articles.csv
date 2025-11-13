@@ -1,42 +1,41 @@
-article,class,importance,contentious
-COVID-19 pandemic in Ukraine,Start,low,True
-History of Ukraine,B,top,False
-Crimea,C,Top,True
-Russian annexation of Crimea,B,top,True
-2004 Ukrainian presidential election,C,High,False
-Football in Ukraine,Start,mid,False
-Bessarabia,B,High,False
-2014 pro-Russian unrest in Ukraine,C,high,True
-Communist Party of the Soviet Union,C,Top,False
-English Civil War,C,mid,False
-Christianity in Russia,C,High,False
-History of Christianity in Ukraine,,high,False
-Flag of Ukraine,C,Top,False
-Alexander II of Russia,B,top,False
-Eastern Front (World War II),C,high,False
-Bukovina,C,High,False
-Epiphanius I of Ukraine,C,?,False
-History of Crimea,B,Mid,True
-Dissolution of the Soviet Union,C,Top,False
-Crimean Tatars,B,top,False
-Catherine the Great,C,Top,False
-Culture of Ukraine,C,top,False
-Abortion in Ukraine,C,Mid,False
-Christmas in Ukraine,Start,mid,False
-Armed Forces of Ukraine,C,top,False
-Demographics of Ukraine,C,top,False
-History of Kyiv,B,"high<!--comments=While a nice article, it needs more referencing and inline citations, and the expansion of ""stubby"" sections. [[User:DDima|—dima]][[User talk:DDima|'''''/talk/''''']] 02:02, 16 April 2007 (UTC)-->",False
-Foreign relations of Ukraine,Start,Top,False
-Eastern Front (World War I),C,mid,False
-Economy of Ukraine,C,top,False
-Galicia (Eastern Europe),C,High,False
-Euromaidan,C,Top,True
-History of the Russian Orthodox Church,C,top,False
-Government of Ukraine,Start,Top,False
-Geography of Ukraine,C,top,False
-Censuses in Ukraine,Start,,False
-Administrative divisions of Ukraine,B,top,False
-Government of the Ukrainian People s Republic in exile,,,
-Education in Ukraine,C,top,False
-2022 Russian invasion of Ukraine,B,Top,False
-Buddhism in Ukraine,Start,,False
+article,class,importance,contentious,protection
+COVID-19 pandemic in Ukraine,Start,low,True,semi
+History of Ukraine,B,top,False,extendedconfirmed
+Crimea,C,top,True,extendedconfirmed
+Russian annexation of Crimea,B,top,True,extendedconfirmed
+2004 Ukrainian presidential election,C,high,False,unprotected
+Football in Ukraine,Start,mid,False,unprotected
+Bessarabia,B,high,False,unprotected
+2014 pro-Russian unrest in Ukraine,C,high,True,unprotected
+Communist Party of the Soviet Union,C,top,False,unprotected
+Christianity in Russia,C,high,False,unprotected
+History of Christianity in Ukraine,B,high,False,unprotected
+Flag of Ukraine,C,top,False,unprotected
+Alexander II of Russia,B,top,False,unprotected
+Eastern Front (World War II),C,high,False,semi
+Bukovina,C,high,False,unprotected
+Epiphanius I of Ukraine,C,,False,unprotected
+History of Crimea,B,mid,True,unprotected
+Dissolution of the Soviet Union,C,top,False,unprotected
+Crimean Tatars,B,top,False,unprotected
+Catherine the Great,C,top,False,unprotected
+Culture of Ukraine,C,top,False,unprotected
+Abortion in Ukraine,C,mid,False,unprotected
+Christmas in Ukraine,Start,mid,False,unprotected
+Armed Forces of Ukraine,C,top,False,extendedconfirmed
+Demographics of Ukraine,C,top,False,unprotected
+History of Kyiv,B,high,False,unprotected
+Foreign relations of Ukraine,Start,top,False,unprotected
+Eastern Front (World War I),C,mid,False,unprotected
+Economy of Ukraine,C,top,False,unprotected
+Galicia (Eastern Europe),C,high,False,semi
+Euromaidan,C,top,True,extendedconfirmed
+History of the Russian Orthodox Church,C,top,False,unprotected
+Government of Ukraine,Start,top,False,unprotected
+Geography of Ukraine,C,top,False,unprotected
+Censuses in Ukraine,Start,,False,unprotected
+Administrative divisions of Ukraine,B,top,False,unprotected
+Government of the Ukrainian People s Republic in exile,Start,,False,unprotected
+Education in Ukraine,C,top,False,unprotected
+2022 Russian invasion of Ukraine,B,top,False,extendedconfirmed
+Buddhism in Ukraine,Start,,False,unprotected
