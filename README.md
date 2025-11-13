@@ -1,4 +1,4 @@
-# 🧾 Results — Midterm Analysis (28 Oct. 2025)
+# 🧾 Results 
 
 ---
 
@@ -43,18 +43,17 @@ There is a clear correlation with the first graph, showing more edits on crucial
 ### Metadata of the `matched_edits_all.csv`
 
 ```python
-{'total_edits': 45697,
- 'total_unique_users': 2454,
- 'number_unique_articles': 41,
- 'num_bot_users': 92,
- 'num_anonymous_users': 1011,
- 'num_registered_users': 1351,
- 'num_bot_edits': 1376,
- 'num_anonymous_edits': 8315,
- 'num_registered_edits': 36006,
- 'weaponised_edits': 8388,
- 'non_weaponised_edits': 37278,
- 'unknown_weaponised_edits': 31}
+{'total_edits': 6922,
+ 'total_unique_users': 2336,
+ 'number_unique_articles': 40,
+ 'num_bot_users': 91,
+ 'num_anonymous_users': 966,
+ 'num_registered_users': 1279,
+ 'num_bot_edits': 287,
+ 'num_anonymous_edits': 1361,
+ 'num_registered_edits': 5274,
+ 'weaponised_edits': 1333,
+ 'non_weaponised_edits': 5589}
 ```
 
 There is a lot we can analyse coming from this metadata. We first start to focus on the **registered** users and specially the top 10 most frequent editors among the 1351 registered users.
