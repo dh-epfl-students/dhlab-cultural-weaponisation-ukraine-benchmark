@@ -36,7 +36,9 @@ B. **Weaponising Users — Fine-Grained Analysis**
 This section is based on the file `matched_edits_all.csv`, produced by **Emanuela**, which aligns fine-grained edits with corresponding user data from the *LLM Results* folder.  
 One can first check how *Weaponising* VS *Non weaponsing* edits are distributed over time.
 
-![Map of unregistered editors](plots/W_VS_NW_edits_per_year.png)
+<p align="center">
+<img src="plots/All Users Analysis/Weaponised vs Non-Weaponised Edits per Year.png" alt="Plot of edits" width="500"/>
+</p>
 
 There is a clear correlation with the first graph, showing more edits on crucial geopolitical periods as well as a peak of weaponsing edits. No peaks are displayed for the 2022-2025 periods since no article in the dataset was about Russian large scale invasion in Ukraine.
 
@@ -63,14 +65,14 @@ There is a lot we can analyse coming from this metadata. We first start to focus
 The top 10 registered editors are : 
 ```python
 ['LSGH',
- 'Toddy1',
  'TheDraperyFalls',
- 'UP9',
- 'Genyo',
  'Aleksandr Grigoryev',
- 'Dbachmann',
- 'Vasile',
+ 'Toddy1',
+ 'UP9',
+ 'Yulia Romero',
  'Irpen',
+ 'Seryo93',
+ 'Dbachmann',
  'Mzajac']
 ```
 
@@ -130,30 +132,18 @@ ukraine_keywords_large = [
 ]
 ```
 
-I did the analysis for a sub sample of 1000 edits per user and for all the edits the user made since the creation of his account using Wikipedia's user API. 
-
-With the small set for 1000 edits per user :
-
-<p align="center">
-<img src="plots/Proportion_of_10^3_Wikipedia_Edits_per_User_on_Ur_related_Articles_small.png" alt="Plot of edits" width="500"/>
-</p>
-
-With the large set for 1000 edits per user :
-
-<p align="center">
-<img src="plots/Proportion_of_10^3_Wikipedia_Edits_per_User_on_Ur_related_Articles_large.png" alt="Plot of edits" width="500"/>
-</p>
+I did the analysis for all the edits the user made since the creation of his account using Wikipedia's user API. 
 
 With the small set for every edits per user :
 
 <p align="center">
-<img src="plots/Proportion_of_all_Wikipedia_Edits_per_User_on_Ur_related_Articles_small.png" alt="Plot of edits" width="500"/>
+<img src="plots/All Users Analysis/Proportion of every Wikipedia Edits per Top 10 Registered User on Ukraine-related Articles_small.png" alt="Plot of edits" width="500"/>
 </p>
 
 With the large set for every edits per user :
 
 <p align="center">
-<img src="plots/Proportion_of_all_Wikipedia_Edits_per_User_on_Ur_related_Articles_large.png" alt="Plot of edits" width="500"/>
+<img src="plots/All Users Analysis/Proportion of every Wikipedia Edits per Top 10 Registered User on Ukraine-related Articles_large.png" alt="Plot of edits" width="500"/>
 </p>
 
 We can see that while the batche's size of edits doesn't really make any difference, the set's size of Ua/Ru keywords does. The small size really focus on Ua/Ru specific article while the large set is more about controversial/political/historical article in general. Now, we can select only the Ua/Ru related articles to see if a certain pattern shows off. 
@@ -161,7 +151,7 @@ We can see that while the batche's size of edits doesn't really make any differe
 #### Weaponsing edits vs non weaponising edits per year for top 10 for only Ur/Ru related article
 
 <p align="center">
-<img src="plots/Weaponised_vs_Non-Weaponised_Edits_per_Year_Top_10_Users.png" alt="Plot of edits" width="500"/>
+<img src="plots/All Users Analysis/Weaponised vs Non-Weaponised Edits per Year — Top 10 Users.png" alt="Plot of edits" width="500"/>
 </p>
 
 The graph shows that while Dbachmann seldom edits Ukraine- or Russia-related pages, those few edits are more likely to be weaponising compared to others.
