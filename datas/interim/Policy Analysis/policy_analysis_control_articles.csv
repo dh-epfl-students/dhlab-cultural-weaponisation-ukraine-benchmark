@@ -1,0 +1,43 @@
+article,class,importance,contentious
+Alan Clark,C,Low,False
+BTS,FA,Top,False
+Bob Marley,GA,High,False
+Classical music,B,,False
+Country music,B,top,False
+Daft Punk,GA,high,False
+Dire Straits,B,high,False
+Edith Piaf,,,
+Electronic music,B,top,False
+Eric Clapton,B,Mid,False
+Fender,,,False
+Funk rock,C,mid,False
+Guitar,C,Top,False
+James Brown,B,High,False
+Jazz,B,High,False
+Jimi Hendrix,FA,Top,False
+John Frusciante,C,Mid,False
+Joseph Haydn,B,Low,False
+K-Pop,,,
+Ludwig van Beethoven,B,Top,False
+Major chord,C,top,False
+Major scale,Start,High,False
+Mark Knofler,,,
+Marshall Amplification,B,high,False
+Minor chord,C,top,False
+Music of Africa,B,Top,False
+Music theory,B,Top,False
+Nina Simone,b,Top,False
+Nirvana (band),FA,Top,False
+Paul Kalkbrenner,Start,High,False
+Piano,B,Top,False
+Pink Floyd,FA,Top,False
+Pop music,B,Top,False
+Red Hot Chili Peppers,B,High,False
+Rock and roll,B,High,False
+Rolling Stone,B,Mid,False
+Royal Albert Hall,C,high,False
+Saxophone,B,Top,False
+Stevie Wonder,B,top,False
+Swing,,,False
+Trumpet,C,High,False
+Wolfgang Amadeus Mozart,B,Top,True
