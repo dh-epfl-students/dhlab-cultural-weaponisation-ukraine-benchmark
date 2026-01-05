@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_total_edits" for="node" attr.name="total_edits" attr.type="double"/>
+  <key id="v_weaponising_ratio" for="node" attr.name="weaponising_ratio" attr.type="double"/>
+  <key id="v_cluster" for="node" attr.name="cluster" attr.type="double"/>
+  <key id="e_weight" for="edge" attr.name="weight" attr.type="double"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="v_name">A.h. king</data>
+      <data key="v_total_edits">5</data>
+      <data key="v_weaponising_ratio">0.25</data>
+      <data key="v_cluster">4</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">CommonsDelinker</data>
+      <data key="v_total_edits">12</data>
+      <data key="v_weaponising_ratio">0</data>
+      <data key="v_cluster">4</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">DDima</data>
+      <data key="v_total_edits">57</data>
+      <data key="v_weaponising_ratio">0.235524891774892</data>
+      <data key="v_cluster">4</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">Irpen</data>
+      <data key="v_total_edits">116</data>
+      <data key="v_weaponising_ratio">0.0853729603729604</data>
+      <data key="v_cluster">0</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">Mzajac</data>
+      <data key="v_total_edits">94</data>
+      <data key="v_weaponising_ratio">0.0705009276437848</data>
+      <data key="v_cluster">0</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">Nickst</data>
+      <data key="v_total_edits">9</data>
+      <data key="v_weaponising_ratio">0</data>
+      <data key="v_cluster">1</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">Yulia Romero</data>
+      <data key="v_total_edits">127</data>
+      <data key="v_weaponising_ratio">0.149391725501117</data>
+      <data key="v_cluster">3</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">Everyking</data>
+      <data key="v_total_edits">29</data>
+      <data key="v_weaponising_ratio">0.291666666666667</data>
+      <data key="v_cluster">0</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">Rich Farmbrough</data>
+      <data key="v_total_edits">6</data>
+      <data key="v_weaponising_ratio">0.1</data>
+      <data key="v_cluster">4</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">Ed g2s</data>
+      <data key="v_total_edits">3</data>
+      <data key="v_weaponising_ratio">0.333333333333333</data>
+      <data key="v_cluster">4</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">Piotrus</data>
+      <data key="v_total_edits">17</data>
+      <data key="v_weaponising_ratio">0.435897435897436</data>
+      <data key="v_cluster">0</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">Hmains</data>
+      <data key="v_total_edits">7</data>
+      <data key="v_weaponising_ratio">0</data>
+      <data key="v_cluster">3</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">John of Reading</data>
+      <data key="v_total_edits">6</data>
+      <data key="v_weaponising_ratio">0.0833333333333333</data>
+      <data key="v_cluster">3</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">Woohookitty</data>
+      <data key="v_total_edits">4</data>
+      <data key="v_weaponising_ratio">0.166666666666667</data>
+      <data key="v_cluster">3</data>
+    </node>
+    <node id="n14">
+      <data key="v_name">Sangjinhwa</data>
+      <data key="v_total_edits">3</data>
+      <data key="v_weaponising_ratio">0</data>
+      <data key="v_cluster">1</data>
+    </node>
+    <node id="n15">
+      <data key="v_name">Aleksandr Grigoryev</data>
+      <data key="v_total_edits">162</data>
+      <data key="v_weaponising_ratio">0.208738973444856</data>
+      <data key="v_cluster">2</data>
+    </node>
+    <node id="n16">
+      <data key="v_name">Ali-al-Bakuvi</data>
+      <data key="v_total_edits">20</data>
+      <data key="v_weaponising_ratio">0.333333333333333</data>
+      <data key="v_cluster">1</data>
+    </node>
+    <node id="n17">
+      <data key="v_name">Lvivske</data>
+      <data key="v_total_edits">60</data>
+      <data key="v_weaponising_ratio">0.201923076923077</data>
+      <data key="v_cluster">3</data>
+    </node>
+    <node id="n18">
+      <data key="v_name">RGloucester</data>
+      <data key="v_total_edits">69</data>
+      <data key="v_weaponising_ratio">0.229020467836257</data>
+      <data key="v_cluster">1</data>
+    </node>
+    <node id="n19">
+      <data key="v_name">Tobby72</data>
+      <data key="v_total_edits">14</data>
+      <data key="v_weaponising_ratio">0.0857142857142857</data>
+      <data key="v_cluster">1</data>
+    </node>
+    <node id="n20">
+      <data key="v_name">Volunteer Marek</data>
+      <data key="v_total_edits">32</data>
+      <data key="v_weaponising_ratio">0.372619047619048</data>
+      <data key="v_cluster">1</data>
+    </node>
+    <node id="n21">
+      <data key="v_name">Bender235</data>
+      <data key="v_total_edits">3</data>
+      <data key="v_weaponising_ratio">0</data>
+      <data key="v_cluster">3</data>
+    </node>
+    <node id="n22">
+      <data key="v_name">.:Ajvol:.</data>
+      <data key="v_total_edits">3</data>
+      <data key="v_weaponising_ratio">0</data>
+      <data key="v_cluster">0</data>
+    </node>
+    <node id="n23">
+      <data key="v_name">Altenmann</data>
+      <data key="v_total_edits">34</data>
+      <data key="v_weaponising_ratio">0.213541666666667</data>
+      <data key="v_cluster">0</data>
+    </node>
+    <node id="n24">
+      <data key="v_name">Andre Engels</data>
+      <data key="v_total_edits">5</data>
+      <data key="v_weaponising_ratio">0.333333333333333</data>
+      <data key="v_cluster">0</data>
+    </node>
+    <node id="n25">
+      <data key="v_name">Cautious</data>
+      <data key="v_total_edits">6</data>
+      <data key="v_weaponising_ratio">0.5</data>
+      <data key="v_cluster">0</data>
+    </node>
+    <node id="n26">
+      <data key="v_name">Ghirlandajo</data>
+      <data key="v_total_edits">17</data>
+      <data key="v_weaponising_ratio">0.186507936507937</data>
+      <data key="v_cluster">0</data>
+    </node>
+    <node id="n27">
+      <data key="v_name">Genyo</data>
+      <data key="v_total_edits">46</data>
+      <data key="v_weaponising_ratio">0.560975609756098</data>
+      <data key="v_cluster">0</data>
+    </node>
+    <node id="n28">
+      <data key="v_name">AndriyK</data>
+      <data key="v_total_edits">13</data>
+      <data key="v_weaponising_ratio">0.39047619047619</data>
+      <data key="v_cluster">0</data>
+    </node>
+    <node id="n29">
+      <data key="v_name">Charles Matthews</data>
+      <data key="v_total_edits">4</data>
+      <data key="v_weaponising_ratio">0</data>
+      <data key="v_cluster">0</data>
+    </node>
+    <node id="n30">
+      <data key="v_name">DO&apos;Neil</data>
+      <data key="v_total_edits">3</data>
+      <data key="v_weaponising_ratio">0</data>
+      <data key="v_cluster">0</data>
+    </node>
+    <node id="n31">
+      <data key="v_name">Bryndza</data>
+      <data key="v_total_edits">7</data>
+      <data key="v_weaponising_ratio">0.333333333333333</data>
+      <data key="v_cluster">0</data>
+    </node>
+    <node id="n32">
+      <data key="v_name">Toddy1</data>
+      <data key="v_total_edits">147</data>
+      <data key="v_weaponising_ratio">0.226779513888889</data>
+      <data key="v_cluster">0</data>
+    </node>
+    <node id="n33">
+      <data key="v_name">Ymblanter</data>
+      <data key="v_total_edits">19</data>
+      <data key="v_weaponising_ratio">0.333333333333333</data>
+      <data key="v_cluster">3</data>
+    </node>
+    <node id="n34">
+      <data key="v_name">Alex Bakharev</data>
+      <data key="v_total_edits">15</data>
+      <data key="v_weaponising_ratio">0.075</data>
+      <data key="v_cluster">0</data>
+    </node>
+    <node id="n35">
+      <data key="v_name">Discospinster</data>
+      <data key="v_total_edits">6</data>
+      <data key="v_weaponising_ratio">0.125</data>
+      <data key="v_cluster">1</data>
+    </node>
+    <node id="n36">
+      <data key="v_name">BD2412</data>
+      <data key="v_total_edits">7</data>
+      <data key="v_weaponising_ratio">0.375</data>
+      <data key="v_cluster">2</data>
+    </node>
+    <node id="n37">
+      <data key="v_name">Dewritech</data>
+      <data key="v_total_edits">5</data>
+      <data key="v_weaponising_ratio">0.125</data>
+      <data key="v_cluster">2</data>
+    </node>
+    <node id="n38">
+      <data key="v_name">Iryna Harpy</data>
+      <data key="v_total_edits">19</data>
+      <data key="v_weaponising_ratio">0.229166666666667</data>
+      <data key="v_cluster">1</data>
+    </node>
+    <node id="n39">
+      <data key="v_name">Ahnoneemoos</data>
+      <data key="v_total_edits">61</data>
+      <data key="v_weaponising_ratio">0.113459399332592</data>
+      <data key="v_cluster">1</data>
+    </node>
+    <node id="n40">
+      <data key="v_name">Dbachmann</data>
+      <data key="v_total_edits">111</data>
+      <data key="v_weaponising_ratio">0.201311899482631</data>
+      <data key="v_cluster">1</data>
+    </node>
+    <node id="n41">
+      <data key="v_name">Soffredo</data>
+      <data key="v_total_edits">6</data>
+      <data key="v_weaponising_ratio">0</data>
+      <data key="v_cluster">1</data>
+    </node>
+    <node id="n42">
+      <data key="v_name">Alan Liefting</data>
+      <data key="v_total_edits">3</data>
+      <data key="v_weaponising_ratio">0</data>
+      <data key="v_cluster">2</data>
+    </node>
+    <node id="n43">
+      <data key="v_name">Andrew J.Kurbiko</data>
+      <data key="v_total_edits">4</data>
+      <data key="v_weaponising_ratio">0.333333333333333</data>
+      <data key="v_cluster">2</data>
+    </node>
+    <node id="n44">
+      <data key="v_name">Colonies Chris</data>
+      <data key="v_total_edits">7</data>
+      <data key="v_weaponising_ratio">0.111111111111111</data>
+      <data key="v_cluster">2</data>
+    </node>
+    <node id="n45">
+      <data key="v_name">Ezhiki</data>
+      <data key="v_total_edits">31</data>
+      <data key="v_weaponising_ratio">0.172413793103448</data>
+      <data key="v_cluster">1</data>
+    </node>
+    <node id="n46">
+      <data key="v_name">Jonesey95</data>
+      <data key="v_total_edits">3</data>
+      <data key="v_weaponising_ratio">0.333333333333333</data>
+      <data key="v_cluster">2</data>
+    </node>
+    <node id="n47">
+      <data key="v_name">Marek69</data>
+      <data key="v_total_edits">5</data>
+      <data key="v_weaponising_ratio">0</data>
+      <data key="v_cluster">2</data>
+    </node>
+    <node id="n48">
+      <data key="v_name">Kuban kazak</data>
+      <data key="v_total_edits">35</data>
+      <data key="v_weaponising_ratio">0.155555555555556</data>
+      <data key="v_cluster">0</data>
+    </node>
+    <node id="n49">
+      <data key="v_name">Akhristov</data>
+      <data key="v_total_edits">5</data>
+      <data key="v_weaponising_ratio">0</data>
+      <data key="v_cluster">2</data>
+    </node>
+    <node id="n50">
+      <data key="v_name">Ev</data>
+      <data key="v_total_edits">4</data>
+      <data key="v_weaponising_ratio">0</data>
+      <data key="v_cluster">2</data>
+    </node>
+    <edge source="n0" target="n1">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n0" target="n2">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n0" target="n3">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n0" target="n4">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n0" target="n5">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n0" target="n6">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n1" target="n2">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n1" target="n7">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n1" target="n3">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n1" target="n4">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n1" target="n8">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n2" target="n9">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n2" target="n3">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n2" target="n4">
+      <data key="e_weight">5</data>
+    </edge>
+    <edge source="n2" target="n5">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n2" target="n8">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n2" target="n6">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n3" target="n7">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n4" target="n7">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n7" target="n10">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n11" target="n12">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n4" target="n11">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n11" target="n13">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n6" target="n11">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n3" target="n4">
+      <data key="e_weight">9</data>
+    </edge>
+    <edge source="n3" target="n10">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n12" target="n13">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n4" target="n5">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n4" target="n8">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n4" target="n14">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n4" target="n6">
+      <data key="e_weight">5</data>
+    </edge>
+    <edge source="n5" target="n14">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n5" target="n6">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n15" target="n16">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n15" target="n17">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n5" target="n15">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n15" target="n18">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n15" target="n19">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n15" target="n20">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n6" target="n15">
+      <data key="e_weight">5</data>
+    </edge>
+    <edge source="n5" target="n16">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n16" target="n18">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n16" target="n19">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n16" target="n20">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n17" target="n19">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n17" target="n20">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n6" target="n17">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n5" target="n18">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n5" target="n19">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n5" target="n20">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n18" target="n19">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n18" target="n20">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n19" target="n20">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n6" target="n19">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n6" target="n20">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n6" target="n21">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n22" target="n23">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n23" target="n24">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n23" target="n25">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n23" target="n26">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n24" target="n26">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n23" target="n27">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n3" target="n23">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n4" target="n23">
+      <data key="e_weight">5</data>
+    </edge>
+    <edge source="n27" target="n28">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n26" target="n28">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n3" target="n28">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n4" target="n28">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n26" target="n29">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n4" target="n29">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n7" target="n26">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n26" target="n27">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n3" target="n27">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n4" target="n27">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n3" target="n26">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n4" target="n26">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n23" target="n30">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n3" target="n31">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n4" target="n31">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n3" target="n30">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n4" target="n30">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n4" target="n32">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n4" target="n33">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n6" target="n33">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n26" target="n34">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n3" target="n34">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n26" target="n35">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n36" target="n37">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n0" target="n15">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n0" target="n38">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n39" target="n40">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n5" target="n39">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n39" target="n41">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n19" target="n39">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n15" target="n42">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n15" target="n43">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n15" target="n36">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n15" target="n44">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n2" target="n15">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n15" target="n40">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n15" target="n37">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n15" target="n45">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n15" target="n38">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n15" target="n46">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n15" target="n47">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n4" target="n15">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n36" target="n44">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n36" target="n46">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n37" target="n44">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n44" target="n46">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n2" target="n40">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n2" target="n35">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n2" target="n38">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n2" target="n19">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n35" target="n40">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n40" target="n45">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n38" target="n40">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n4" target="n40">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n5" target="n40">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n40" target="n41">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n19" target="n40">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n20" target="n40">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n37" target="n46">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n19" target="n35">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n38" target="n45">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n4" target="n45">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n19" target="n45">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n20" target="n45">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n4" target="n38">
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n5" target="n38">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n19" target="n38">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n20" target="n38">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n4" target="n19">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n4" target="n20">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n5" target="n41">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n19" target="n41">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n3" target="n15">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n3" target="n48">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n15" target="n49">
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n15" target="n50">
+      <data key="e_weight">3</data>
+    </edge>
+  </graph>
+</graphml>
