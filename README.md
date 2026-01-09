@@ -229,11 +229,12 @@ plot_protection_timelines(
 
 Plots are saved to the `plots/` directory, organized by analysis type.
 
-## 👥 Authors
+## Authors
 
-Maxime Garambois [maximegrmbs]
+Maxime Garamboi
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
-[emanuelaboros]
+Emanuela Boros
+Hamest Tamrazyan
 
