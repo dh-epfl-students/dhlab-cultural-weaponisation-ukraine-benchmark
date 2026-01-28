@@ -1,0 +1,63 @@
+# Book settings
+title: "Tracking Wikipedia Weaponization and Cultural Heritage Manipulation"
+author: "Maxime Garambois"
+copyright: "2026"
+logo: images/logo.png  
+
+# Execution settings
+execute:
+  execute_notebooks: "off"   # IMPORTANT for portfolio stability
+  timeout: 300
+  allow_errors: false
+
+# Launch buttons
+launch_buttons:
+  notebook_interface: "jupyterlab"
+  thebe: false
+  binderhub_url: https://mybinder.org
+
+# Navigation & UI
+html:
+  navbar_number_sections: false
+  show_navbar_depth: 2
+  show_toc_level: 2
+  extra_navbar: |
+    <div style="font-size: 0.85em;">
+      Portfolio · Digital Humanities · Computational Social Science
+    </div>
+
+# MyST configuration
+parse:
+  myst_enable_extensions:
+    - colon_fence
+    - deflist
+    - dollarmath
+    - linkify
+    - substitution
+    - tasklist
+
+# Math & figures
+latex:
+  latex_engine: xelatex
+
+sphinx:
+  config:
+    html_show_copyright: false
+    mathjax3_config:
+      tex:
+        macros:
+          E: "\\mathbb{E}"
+    numfig: true
+    numfig_secnum_depth: 2
+
+# Bibliography
+bibtex_bibfiles:
+  - references.bib
+
+sphinx:
+  config:
+    bibtex_reference_style: author_year
+    bibtex_default_style: alpha
+
+# Warnings & build behavior
+only_build_toc_files: true

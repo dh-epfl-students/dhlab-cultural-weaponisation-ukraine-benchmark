@@ -1,0 +1,1695 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>User Metadata Analysis &#8212; Tracking Wikipedia Weaponization and Cultural Heritage Manipulation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="../../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'analysis/weaponized_vs_nonweaponized/users_metadata';</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Users motivations" href="users_motivations.html" />
+    <link rel="prev" title="User Contributions Analysis" href="users_contributions.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../welcome.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../_static/logo.png" class="logo__image only-light" alt="Tracking Wikipedia Weaponization and Cultural Heritage Manipulation - Home"/>
+    <script>document.write(`<img src="../../_static/logo.png" class="logo__image only-dark" alt="Tracking Wikipedia Weaponization and Cultural Heritage Manipulation - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../welcome.html">
+                    Welcome
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../data/index.html">Data collection and structure</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../data/data_collection.html">Data collection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data/data_structure.html">Structure</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="index.html">Weaponized vs. Non-weaponized analysis</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="users_contributions.html">User Contributions Analysis</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">User Metadata Analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="users_motivations.html">Users motivations</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../finegrained_analysis/index.html">Weaponizing users — Fine-grained analysis</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="simple">
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../policy/index.html">Article policy analysis</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../policy/context.html">Why studying the Wikipedia Policy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../policy/policy_in_details.html">Wikipedia Policy in details</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../policy/article_analysis.html">Protection Status</a></li>
+
+
+
+</ul>
+</details></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=lab/tree/analysis/weaponized_vs_nonweaponized/users_metadata.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Binder"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Binder logo" src="../../_static/images/logo_binder.svg">
+  </span>
+<span class="btn__text-container">Binder</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/analysis/weaponized_vs_nonweaponized/users_metadata.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>User Metadata Analysis</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#retrieved-parameters-and-their-meaning">Retrieved Parameters and Their Meaning</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scope-of-the-notebook">Scope of the Notebook</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#research-objective">Research Objective</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gender">Gender</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#block">Block</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#registration">Registration</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#editcount">Editcount</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#account-age-and-editcount">Account age and editcount</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#groups">Groups</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#user-rights-log">User Rights Log</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="user-metadata-analysis">
+<h1>User Metadata Analysis<a class="headerlink" href="#user-metadata-analysis" title="Link to this heading">#</a></h1>
+<p>This notebook focuses on retrieving, analysing, and visualising <strong>user-level metadata on the English Wikipedia</strong>.<br />
+It covers both the full dataset of <strong>2,336 unique users</strong> and a targeted subset of the <strong>top 10 most active contributors by edit count</strong>, listed below:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Dbachamnn</span>
+<span class="n">Irpen</span>
+<span class="n">Seryo93</span>
+<span class="n">TheDraperyFalls</span>
+<span class="n">LSHG</span>
+<span class="n">Toddy1</span>
+<span class="n">Yulia</span> <span class="n">Romero</span>
+<span class="n">Mzajac</span>
+<span class="n">UP9</span>
+<span class="n">Aleksandr</span> <span class="n">Grigoryev</span>
+</pre></div>
+</div>
+<p>The objective is to understand how <strong>user attributes, roles, and status within Wikipedia</strong> relate to editing behaviour observed in the contributions analysis.</p>
+<p>User metadata is retrieved using the <strong>Wikimedia API</strong>, via the <code class="docutils literal notranslate"><span class="pre">action=query</span></code> endpoint with <code class="docutils literal notranslate"><span class="pre">list=users</span></code>, and the following parameters <code class="docutils literal notranslate"><span class="pre">ucprop=blockinfo|groups|editcount|registration|emailable|gender</span></code>.</p>
+<hr class="docutils" />
+<section id="retrieved-parameters-and-their-meaning">
+<h2>Retrieved Parameters and Their Meaning<a class="headerlink" href="#retrieved-parameters-and-their-meaning" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">blockinfo</span></code></strong><br />
+Information about whether a user is currently blocked or has been blocked in the past.<br />
+This provides insight into <strong>sanctioning, moderation, and disciplinary history</strong>.</p></li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">groups</span></code></strong><br />
+Lists the user groups the account belongs to (e.g. <code class="docutils literal notranslate"><span class="pre">sysop</span></code>, <code class="docutils literal notranslate"><span class="pre">editor</span></code>, <code class="docutils literal notranslate"><span class="pre">bot</span></code>).<br />
+Group membership reflects <strong>institutional authority and access to advanced editorial tools</strong>.</p></li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">editcount</span></code></strong><br />
+Total number of edits made by the user.<br />
+This is used as a proxy for <strong>experience, seniority, and embeddedness</strong> within Wikipedia.</p></li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">registration</span></code></strong><br />
+The account creation date.<br />
+This allows estimation of <strong>account age</strong>, which is strongly correlated with trust and editorial legitimacy.</p></li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">emailable</span></code></strong><br />
+Indicates whether the user can be contacted via Wikipedia’s internal email system.<br />
+This feature is often associated with <strong>established and trusted accounts</strong>.</p></li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">gender</span></code></strong><br />
+Self-declared gender (optional and frequently missing).<br />
+While used cautiously, it may reveal <strong>structural biases or asymmetries</strong> in participation.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="scope-of-the-notebook">
+<h2>Scope of the Notebook<a class="headerlink" href="#scope-of-the-notebook" title="Link to this heading">#</a></h2>
+<p>This notebook contains:</p>
+<ul class="simple">
+<li><p>Reusable functions to retrieve user metadata from Wikipedia</p></li>
+<li><p>Exploratory visualisations to identify patterns across user types and experience levels</p></li>
+<li><p>Analyses linking user metadata to observed editing behaviour</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="research-objective">
+<h2>Research Objective<a class="headerlink" href="#research-objective" title="Link to this heading">#</a></h2>
+<p>The final goal of this notebook is to <strong>identify user-level features that correlate with or enable weaponising behaviours</strong> on Wikipedia.<br />
+These features are intended to be:</p>
+<ul class="simple">
+<li><p>empirically grounded,</p></li>
+<li><p>interpretable,</p></li>
+<li><p>and reusable for the development of a downstream <strong>Large Language Model (LLM)</strong> aimed at analysing, contextualising, or detecting coordinated or manipulative editorial activity.</p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">seaborn</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">sns</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">time</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">calendar</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">datetime</span><span class="w"> </span><span class="kn">import</span> <span class="n">timedelta</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">scipy.stats</span><span class="w"> </span><span class="kn">import</span> <span class="n">variation</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">tqdm</span><span class="w"> </span><span class="kn">import</span> <span class="n">tqdm</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># import our small preprocessed database</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;../../datas/final/small_db_preprocess.csv&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Users list</span>
+<span class="n">top10_registered_users</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;user&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+<span class="n">users_list</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;user&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+<span class="n">df_ip</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;user_type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;Anonymous (IP)&#39;</span><span class="p">]</span>
+<span class="n">top10_ip_users</span> <span class="o">=</span> <span class="n">df_ip</span><span class="p">[</span><span class="s2">&quot;user&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+
+<span class="c1"># Top 10 users metadata</span>
+<span class="n">df_top10_metadata</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;../../datas/interim/Small Database Analysis/top10_user_profiles.csv&#39;</span><span class="p">)</span>
+<span class="n">df_all_user_metadata</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;../../datas/interim/Small Database Analysis/total_user_profiles.csv&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># after cleaning, we merge the metadata dataframe to the database</span>
+
+<span class="n">df_all_user_metadata</span> <span class="o">=</span> <span class="n">df_all_user_metadata</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="s1">&#39;index&#39;</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="s1">&#39;any&#39;</span><span class="p">,</span> <span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;registration&#39;</span><span class="p">])</span>
+<span class="n">df_all_user_metadata</span> <span class="o">=</span> <span class="n">df_all_user_metadata</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span><span class="p">})</span>
+<span class="n">df_enriched</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span>
+    <span class="n">df_all_user_metadata</span><span class="p">,</span>
+    <span class="n">on</span><span class="o">=</span><span class="s2">&quot;user&quot;</span><span class="p">,</span>
+    <span class="n">how</span><span class="o">=</span><span class="s2">&quot;left&quot;</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_enriched</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>article</th>
+      <th>user</th>
+      <th>date</th>
+      <th>comment</th>
+      <th>llm_output</th>
+      <th>weaponised</th>
+      <th>year</th>
+      <th>user_type</th>
+      <th>userid</th>
+      <th>editcount</th>
+      <th>...</th>
+      <th>blockedby</th>
+      <th>blockedbyid</th>
+      <th>blockreason</th>
+      <th>blockedtimestamp</th>
+      <th>blockexpiry</th>
+      <th>blocknocreate</th>
+      <th>blockowntalk</th>
+      <th>blockedtimestampformatted</th>
+      <th>blockemail</th>
+      <th>blockpartial</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>COVID-19 pandemic in Ukraine</td>
+      <td>Agathoclea</td>
+      <td>2020-03-11T20:56:06Z</td>
+      <td>removed [[Category:2019–20 coronavirus outbrea...</td>
+      <td>Changed the category from "2019–20 coronavirus...</td>
+      <td>Not Weaponised</td>
+      <td>2020</td>
+      <td>Registered</td>
+      <td>847895.0</td>
+      <td>41415.0</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>History of Ukraine</td>
+      <td>Icey</td>
+      <td>2006-05-21T14:09:22Z</td>
+      <td>/* Further reading */ Disambiguation link repa...</td>
+      <td>Changed the reference format for Andrew Wilson...</td>
+      <td>Not Weaponised</td>
+      <td>2006</td>
+      <td>Registered</td>
+      <td>200552.0</td>
+      <td>3213.0</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>History of Ukraine</td>
+      <td>Irpen</td>
+      <td>2006-06-06T21:00:08Z</td>
+      <td>this whole section doesn't belong here, speara...</td>
+      <td>Removed a section titled "Ukraine and Nuclear ...</td>
+      <td>Not Weaponised</td>
+      <td>2006</td>
+      <td>Registered</td>
+      <td>69761.0</td>
+      <td>32604.0</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>History of Ukraine</td>
+      <td>193.60.161.100</td>
+      <td>2006-05-23T11:39:26Z</td>
+      <td>NaN</td>
+      <td>Changed "beyond" to "gayniss" in the context o...</td>
+      <td>Not Weaponised</td>
+      <td>2006</td>
+      <td>Anonymous (IP)</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>History of Ukraine</td>
+      <td>Irpen</td>
+      <td>2006-06-14T17:49:44Z</td>
+      <td>revert to myself</td>
+      <td>Removed a POV (point of view) section regardin...</td>
+      <td>Not Weaponised</td>
+      <td>2006</td>
+      <td>Registered</td>
+      <td>69761.0</td>
+      <td>32604.0</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 26 columns</p>
+</div></div></div>
+</div>
+</section>
+<section id="gender">
+<h2>Gender<a class="headerlink" href="#gender" title="Link to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_all_user_metadata</span><span class="p">[</span><span class="s1">&#39;gender&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>gender
+unknown    997
+male       336
+female      28
+Name: count, dtype: int64
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">crosstab</span><span class="p">(</span>
+    <span class="n">df_enriched</span><span class="p">[</span><span class="s1">&#39;gender&#39;</span><span class="p">],</span>
+    <span class="n">df_enriched</span><span class="p">[</span><span class="s1">&#39;weaponised&#39;</span><span class="p">],</span>
+    <span class="n">normalize</span><span class="o">=</span><span class="s1">&#39;index&#39;</span>
+<span class="p">)</span><span class="o">.</span><span class="n">mul</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span><span class="o">.</span><span class="n">plot</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span>
+    <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span><span class="mi">5</span><span class="p">),</span>
+    <span class="n">title</span><span class="o">=</span><span class="s2">&quot;Weaponised vs Non-Weaponised Edits by Gender&quot;</span><span class="p">,</span>
+    <span class="n">ylabel</span><span class="o">=</span><span class="s2">&quot;Percentage of Edits (%)&quot;</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;Axes: title={&#39;center&#39;: &#39;Weaponised vs Non-Weaponised Edits by Gender&#39;}, xlabel=&#39;gender&#39;, ylabel=&#39;Percentage of Edits (%)&#39;&gt;
+</pre></div>
+</div>
+<img alt="../../_images/c747b517c8764270c027bd18a8e34f12eb310109c9380ea750648373bb203c3f.png" src="../../_images/c747b517c8764270c027bd18a8e34f12eb310109c9380ea750648373bb203c3f.png" />
+</div>
+</div>
+</section>
+<section id="block">
+<h2>Block<a class="headerlink" href="#block" title="Link to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_all_user_metadata_block</span> <span class="o">=</span> <span class="n">df_all_user_metadata</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="s1">&#39;index&#39;</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="s1">&#39;any&#39;</span><span class="p">,</span> <span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;blockid&#39;</span><span class="p">])</span>
+<span class="n">df_all_user_metadata_block</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>userid</th>
+      <th>user</th>
+      <th>editcount</th>
+      <th>registration</th>
+      <th>groups</th>
+      <th>emailable</th>
+      <th>gender</th>
+      <th>invalid</th>
+      <th>blockid</th>
+      <th>blockedby</th>
+      <th>blockedbyid</th>
+      <th>blockreason</th>
+      <th>blockedtimestamp</th>
+      <th>blockexpiry</th>
+      <th>blocknocreate</th>
+      <th>blockowntalk</th>
+      <th>blockedtimestampformatted</th>
+      <th>blockemail</th>
+      <th>blockpartial</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>29</th>
+      <td>21854733.0</td>
+      <td>Adûnâi</td>
+      <td>4023.0</td>
+      <td>2014-07-17T20:52:01Z</td>
+      <td>['extendedconfirmed', '*', 'user', 'autoconfir...</td>
+      <td>NaN</td>
+      <td>unknown</td>
+      <td>NaN</td>
+      <td>9991115.0</td>
+      <td>Ohnoitsjamie</td>
+      <td>507787.0</td>
+      <td>[[WP:No personal attacks|Personal attacks]] or...</td>
+      <td>2020-08-03T14:05:34Z</td>
+      <td>infinite</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>14:05, 3 August 2020</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>37858148.0</td>
+      <td>Starzoner</td>
+      <td>143882.0</td>
+      <td>2019-11-18T02:53:02Z</td>
+      <td>['extendedconfirmed', '*', 'user', 'autoconfir...</td>
+      <td>NaN</td>
+      <td>unknown</td>
+      <td>NaN</td>
+      <td>10444906.0</td>
+      <td>Nick</td>
+      <td>319064.0</td>
+      <td>Abusing [[WP:Sock puppetry|multiple accounts]]...</td>
+      <td>2021-03-20T16:26:46Z</td>
+      <td>infinite</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>16:26, 20 March 2021</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>38454508.0</td>
+      <td>Capewearer</td>
+      <td>11045.0</td>
+      <td>2020-02-02T20:53:10Z</td>
+      <td>['extendedconfirmed', '*', 'user', 'autoconfir...</td>
+      <td>NaN</td>
+      <td>unknown</td>
+      <td>NaN</td>
+      <td>10177207.0</td>
+      <td>TonyBallioni</td>
+      <td>5527268.0</td>
+      <td>{{checkuserblock-account}}: BKFIP</td>
+      <td>2020-11-13T20:43:32Z</td>
+      <td>infinite</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>20:43, 13 November 2020</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>33788042.0</td>
+      <td>Love of Corey</td>
+      <td>54576.0</td>
+      <td>2018-05-17T20:51:33Z</td>
+      <td>['extendedconfirmed', '*', 'user', 'autoconfir...</td>
+      <td>NaN</td>
+      <td>unknown</td>
+      <td>NaN</td>
+      <td>19513375.0</td>
+      <td>Moneytrees</td>
+      <td>33316798.0</td>
+      <td>{{checkuserblock-account}}: See [[Wikipedia:So...</td>
+      <td>2023-04-30T03:00:33Z</td>
+      <td>infinite</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>03:00, 30 April 2023</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>40853603.0</td>
+      <td>Haziq Nur Iman</td>
+      <td>115.0</td>
+      <td>2020-12-26T03:28:47Z</td>
+      <td>['*', 'user', 'autoconfirmed', 'oathauth-twofa...</td>
+      <td>NaN</td>
+      <td>unknown</td>
+      <td>NaN</td>
+      <td>10329677.0</td>
+      <td>ToBeFree</td>
+      <td>16759563.0</td>
+      <td>Persistent addition of [[WP:INTREF|unsourced c...</td>
+      <td>2021-01-24T16:20:58Z</td>
+      <td>infinite</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>16:20, 24 January 2021</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>2272</th>
+      <td>83740.0</td>
+      <td>ThomasK</td>
+      <td>3221.0</td>
+      <td>2004-07-15T07:35:15Z</td>
+      <td>['*', 'user', 'autoconfirmed']</td>
+      <td>NaN</td>
+      <td>unknown</td>
+      <td>NaN</td>
+      <td>1855633.0</td>
+      <td>DragonflySixtyseven</td>
+      <td>62058.0</td>
+      <td>wait, sorry, wrong person</td>
+      <td>2010-03-24T17:46:26Z</td>
+      <td>infinite</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>17:46, 24 March 2010</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2300</th>
+      <td>330204.0</td>
+      <td>Molobo</td>
+      <td>13968.0</td>
+      <td>2005-07-12T14:30:15Z</td>
+      <td>['*', 'user', 'autoconfirmed']</td>
+      <td>NaN</td>
+      <td>unknown</td>
+      <td>NaN</td>
+      <td>1612635.0</td>
+      <td>Future Perfect at Sunrise</td>
+      <td>1224855.0</td>
+      <td>account possibly compromised, according to cla...</td>
+      <td>2009-10-16T14:12:48Z</td>
+      <td>infinite</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>14:12, 16 October 2009</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2309</th>
+      <td>10783848.0</td>
+      <td>Xbypass</td>
+      <td>2150.0</td>
+      <td>2009-10-15T09:23:46Z</td>
+      <td>['extendedconfirmed', '*', 'user', 'autoconfir...</td>
+      <td>NaN</td>
+      <td>unknown</td>
+      <td>NaN</td>
+      <td>25152317.0</td>
+      <td>Moneytrees</td>
+      <td>33316798.0</td>
+      <td>[[WP:CV|Copyright violations]]</td>
+      <td>2025-05-01T02:51:09Z</td>
+      <td>infinite</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>02:51, 1 May 2025</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2324</th>
+      <td>487310.0</td>
+      <td>Kintetsubuffalo</td>
+      <td>203496.0</td>
+      <td>2005-10-11T02:11:02Z</td>
+      <td>['extendedconfirmed', 'reviewer', '*', 'user',...</td>
+      <td>NaN</td>
+      <td>male</td>
+      <td>NaN</td>
+      <td>19082704.0</td>
+      <td>Catfish Jim and the soapdish</td>
+      <td>5498498.0</td>
+      <td>Hell no.</td>
+      <td>2023-04-01T16:58:42Z</td>
+      <td>infinite</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>16:58, 1 April 2023</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2332</th>
+      <td>12864794.0</td>
+      <td>123uhjsakddsa89321l3</td>
+      <td>4383.0</td>
+      <td>2010-08-08T00:32:25Z</td>
+      <td>['extendedconfirmed', '*', 'user', 'autoconfir...</td>
+      <td>NaN</td>
+      <td>unknown</td>
+      <td>NaN</td>
+      <td>8417278.0</td>
+      <td>TonyBallioni</td>
+      <td>5527268.0</td>
+      <td>Suspected [[Wikipedia:Sock puppetry|sock puppe...</td>
+      <td>2018-06-08T14:34:36Z</td>
+      <td>infinite</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>14:34, 8 June 2018</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+<p>145 rows × 19 columns</p>
+</div></div></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_all_user_metadata_block</span><span class="p">[</span><span class="s1">&#39;gender&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">plot</span><span class="o">.</span><span class="n">pie</span><span class="p">(</span><span class="n">autopct</span><span class="o">=</span><span class="s1">&#39;</span><span class="si">%1.1f%%</span><span class="s1">&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;Axes: ylabel=&#39;count&#39;&gt;
+</pre></div>
+</div>
+<img alt="../../_images/8488172699f9e0232c2931bb2b17778c31e6e7d1fa63e0308abbbcd9d5b4d7ad.png" src="../../_images/8488172699f9e0232c2931bb2b17778c31e6e7d1fa63e0308abbbcd9d5b4d7ad.png" />
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_all_user_metadata_block</span><span class="p">[</span><span class="s1">&#39;editcount&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>count    1.450000e+02
+mean     7.154924e+04
+std      3.151635e+05
+min      1.000000e+00
+25%      4.510000e+02
+50%      2.753000e+03
+75%      1.380600e+04
+max      2.942733e+06
+Name: editcount, dtype: float64
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Compute 95th percentile</span>
+<span class="n">p95</span> <span class="o">=</span> <span class="n">df_all_user_metadata_block</span><span class="p">[</span><span class="s2">&quot;editcount&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">quantile</span><span class="p">(</span><span class="mf">0.95</span><span class="p">)</span>
+
+<span class="c1"># Filter data</span>
+<span class="n">filtered</span> <span class="o">=</span> <span class="n">df_all_user_metadata_block</span><span class="p">[</span>
+    <span class="n">df_all_user_metadata_block</span><span class="p">[</span><span class="s2">&quot;editcount&quot;</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">p95</span>
+<span class="p">][</span><span class="s2">&quot;editcount&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">sort_values</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="c1"># Plot</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
+<span class="n">filtered</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;Number of edits&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;Number of users (sorted)&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Distribution of Edit Counts (95</span><span class="si">% o</span><span class="s2">f Users)&quot;</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../../_images/b18679228ba694070a35964a3c5a07b8abf25823ab3a3768efaf9d81ad7da555.png" src="../../_images/b18679228ba694070a35964a3c5a07b8abf25823ab3a3768efaf9d81ad7da555.png" />
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># get a valid date format for the registration date</span>
+<span class="n">df_all_user_metadata_block</span><span class="p">[</span><span class="s1">&#39;registration&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span>
+    <span class="n">df_all_user_metadata_block</span><span class="p">[</span><span class="s1">&#39;registration&#39;</span><span class="p">],</span>
+    <span class="n">errors</span><span class="o">=</span><span class="s1">&#39;coerce&#39;</span>
+<span class="p">)</span>
+
+<span class="c1"># get a valid date format for the block date</span>
+<span class="n">df_all_user_metadata_block</span><span class="p">[</span><span class="s1">&#39;blockedtimestamp&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span>
+    <span class="n">df_all_user_metadata_block</span><span class="p">[</span><span class="s1">&#39;blockedtimestamp&#39;</span><span class="p">],</span>
+    <span class="n">errors</span><span class="o">=</span><span class="s1">&#39;coerce&#39;</span>
+<span class="p">)</span>
+
+<span class="c1"># compute the difference between the 2</span>
+<span class="n">df_all_user_metadata_block</span><span class="p">[</span><span class="s1">&#39;days_to_block&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span>
+    <span class="n">df_all_user_metadata_block</span><span class="p">[</span><span class="s1">&#39;blockedtimestamp&#39;</span><span class="p">]</span>
+    <span class="o">-</span> <span class="n">df_all_user_metadata_block</span><span class="p">[</span><span class="s1">&#39;registration&#39;</span><span class="p">]</span>
+<span class="p">)</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">days</span>
+
+<span class="c1"># ensure the values are valid</span>
+<span class="n">df_all_user_metadata_block</span> <span class="o">=</span> <span class="n">df_all_user_metadata_block</span><span class="p">[</span>
+    <span class="n">df_all_user_metadata_block</span><span class="p">[</span><span class="s1">&#39;days_to_block&#39;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="mi">0</span>
+<span class="p">]</span>
+
+<span class="c1"># 6.9 percent of users blocked within the 24 hours after their account creation date</span>
+<span class="p">(</span><span class="n">df_all_user_metadata_block</span><span class="p">[</span><span class="s1">&#39;days_to_block&#39;</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span> <span class="o">*</span> <span class="mi">100</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/var/folders/t4/w6j9k5hs52b5jx9px2689lzc0000gn/T/ipykernel_88019/2805693770.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_all_user_metadata_block[&#39;registration&#39;] = pd.to_datetime(
+/var/folders/t4/w6j9k5hs52b5jx9px2689lzc0000gn/T/ipykernel_88019/2805693770.py:8: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_all_user_metadata_block[&#39;blockedtimestamp&#39;] = pd.to_datetime(
+/var/folders/t4/w6j9k5hs52b5jx9px2689lzc0000gn/T/ipykernel_88019/2805693770.py:14: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_all_user_metadata_block[&#39;days_to_block&#39;] = (
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>6.896551724137931
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_all_user_metadata_block</span><span class="p">[</span><span class="s1">&#39;days_to_block&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>count     145.000000
+mean     1752.406897
+std      2005.516955
+min         0.000000
+25%       210.000000
+50%       742.000000
+75%      2624.000000
+max      7386.000000
+Name: days_to_block, dtype: float64
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_all_user_metadata_block</span><span class="p">[</span><span class="s1">&#39;days_to_block&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">sort_values</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;Days to block&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;number of users&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../../_images/cac196977fc2ef5cb592ffbb1bcebfb3e6797cf3f9d878e4e44783520912ef02.png" src="../../_images/cac196977fc2ef5cb592ffbb1bcebfb3e6797cf3f9d878e4e44783520912ef02.png" />
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_enriched</span><span class="p">[</span><span class="s1">&#39;is_blocked&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_enriched</span><span class="p">[</span><span class="s1">&#39;blockid&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">notna</span><span class="p">()</span>
+
+<span class="n">pd</span><span class="o">.</span><span class="n">crosstab</span><span class="p">(</span>
+    <span class="n">df_enriched</span><span class="p">[</span><span class="s1">&#39;is_blocked&#39;</span><span class="p">],</span>
+    <span class="n">df_enriched</span><span class="p">[</span><span class="s1">&#39;weaponised&#39;</span><span class="p">],</span>
+    <span class="n">normalize</span><span class="o">=</span><span class="s1">&#39;index&#39;</span>
+<span class="p">)</span><span class="o">.</span><span class="n">mul</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span><span class="o">.</span><span class="n">plot</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span>
+    <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span><span class="mi">5</span><span class="p">),</span>
+    <span class="n">title</span><span class="o">=</span><span class="s2">&quot;Weaponised vs Non-Weaponised Edits by Block Status&quot;</span><span class="p">,</span>
+    <span class="n">ylabel</span><span class="o">=</span><span class="s2">&quot;Percentage of Edits (%)&quot;</span><span class="p">,</span>
+    <span class="n">rot</span><span class="o">=</span><span class="mi">0</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;Axes: title={&#39;center&#39;: &#39;Weaponised vs Non-Weaponised Edits by Block Status&#39;}, xlabel=&#39;is_blocked&#39;, ylabel=&#39;Percentage of Edits (%)&#39;&gt;
+</pre></div>
+</div>
+<img alt="../../_images/f68fa6b781aac2b074e2c80e1023be77daca675b31d38a1bba6d17812c8cbc66.png" src="../../_images/f68fa6b781aac2b074e2c80e1023be77daca675b31d38a1bba6d17812c8cbc66.png" />
+</div>
+</div>
+</section>
+<section id="registration">
+<h2>Registration<a class="headerlink" href="#registration" title="Link to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">compute_account_age</span><span class="p">(</span><span class="n">df_metadata</span><span class="p">,</span> <span class="n">registration_col</span><span class="o">=</span><span class="s2">&quot;registration&quot;</span><span class="p">,</span> <span class="n">output_col</span><span class="o">=</span><span class="s2">&quot;account_age_days&quot;</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Compute the account age (in days) for each user given a metadata dataframe.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    df_metadata : pd.DataFrame</span>
+<span class="sd">        DataFrame containing user-level metadata, including their registration timestamp.</span>
+<span class="sd">    </span>
+<span class="sd">    registration_col : str, optional</span>
+<span class="sd">        Name of the column containing registration timestamps (default: &quot;registration&quot;).</span>
+<span class="sd">    </span>
+<span class="sd">    output_col : str, optional</span>
+<span class="sd">        Name of the output column where account age will be stored (default: &quot;account_age_days&quot;).</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    pd.DataFrame</span>
+<span class="sd">        Same dataframe with an additional column representing the account age in days.</span>
+<span class="sd">    </span>
+<span class="sd">    Notes</span>
+<span class="sd">    -----</span>
+<span class="sd">    - If registration date is missing or invalid, age will be set to NaN.</span>
+<span class="sd">    - Uses UTC timestamps (as provided by the Wikipedia API).</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    
+    <span class="n">df</span> <span class="o">=</span> <span class="n">df_metadata</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+
+    <span class="c1"># Convert registration date to datetime</span>
+    <span class="n">df</span><span class="p">[</span><span class="n">registration_col</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">registration_col</span><span class="p">],</span> <span class="n">errors</span><span class="o">=</span><span class="s2">&quot;coerce&quot;</span><span class="p">)</span>
+
+    <span class="c1"># Compute age</span>
+    <span class="n">df</span><span class="p">[</span><span class="n">output_col</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">Timestamp</span><span class="o">.</span><span class="n">utcnow</span><span class="p">()</span> <span class="o">-</span> <span class="n">df</span><span class="p">[</span><span class="n">registration_col</span><span class="p">])</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">days</span>
+
+    <span class="k">return</span> <span class="n">df</span>
+
+<span class="n">df_enriched_registration</span> <span class="o">=</span> <span class="n">compute_account_age</span><span class="p">(</span><span class="n">df_enriched</span><span class="p">)</span>
+<span class="n">df_enriched_registration</span> <span class="o">=</span> <span class="n">df_enriched_registration</span><span class="p">[</span><span class="n">df_enriched_registration</span><span class="p">[</span><span class="s1">&#39;user_type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;Registered&#39;</span><span class="p">]</span>
+
+<span class="n">df_enriched_registration</span><span class="p">[</span><span class="s2">&quot;weaponised_binary&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span>
+    <span class="n">df_enriched_registration</span><span class="p">[</span><span class="s2">&quot;weaponised&quot;</span><span class="p">]</span>
+    <span class="o">.</span><span class="n">eq</span><span class="p">(</span><span class="s2">&quot;Weaponised&quot;</span><span class="p">)</span>
+    <span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+<span class="p">)</span>
+
+<span class="n">user_level</span> <span class="o">=</span> <span class="p">(</span>
+    <span class="n">df_enriched_registration</span>
+    <span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;user_type&quot;</span><span class="p">])</span>
+    <span class="o">.</span><span class="n">agg</span><span class="p">(</span>
+        <span class="n">account_age_days</span><span class="o">=</span><span class="p">(</span><span class="s2">&quot;account_age_days&quot;</span><span class="p">,</span> <span class="s2">&quot;first&quot;</span><span class="p">),</span>
+        <span class="n">weaponised_rate</span><span class="o">=</span><span class="p">(</span><span class="s2">&quot;weaponised_binary&quot;</span><span class="p">,</span> <span class="s2">&quot;mean&quot;</span><span class="p">)</span>
+    <span class="p">)</span>
+<span class="p">)</span>
+
+<span class="n">user_level</span><span class="p">[</span><span class="s2">&quot;age_bin&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">qcut</span><span class="p">(</span><span class="n">user_level</span><span class="p">[</span><span class="s2">&quot;account_age_days&quot;</span><span class="p">],</span> <span class="n">q</span><span class="o">=</span><span class="mi">8</span><span class="p">)</span>
+
+<span class="n">pivot_user</span> <span class="o">=</span> <span class="p">(</span>
+    <span class="n">user_level</span>
+    <span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;user_type&quot;</span><span class="p">,</span> <span class="s2">&quot;age_bin&quot;</span><span class="p">])[</span><span class="s2">&quot;weaponised_rate&quot;</span><span class="p">]</span>
+    <span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+    <span class="o">.</span><span class="n">mul</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
+    <span class="o">.</span><span class="n">unstack</span><span class="p">()</span>
+<span class="p">)</span>
+
+<span class="n">sns</span><span class="o">.</span><span class="n">heatmap</span><span class="p">(</span><span class="n">pivot_user</span><span class="p">,</span> <span class="n">annot</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="s2">&quot;coolwarm&quot;</span><span class="p">,</span> <span class="n">fmt</span><span class="o">=</span><span class="s2">&quot;.1f&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;User-Level Weaponisation Rate</span><span class="se">\n</span><span class="s2">(Registered Users × Account Age)&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;Registered users&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;Account Age (Quantile Bins)&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/var/folders/t4/w6j9k5hs52b5jx9px2689lzc0000gn/T/ipykernel_88019/4087508409.py:59: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  .groupby([&quot;user_type&quot;, &quot;age_bin&quot;])[&quot;weaponised_rate&quot;]
+</pre></div>
+</div>
+<img alt="../../_images/5d6196cf9a114c2c142ce39ecb5c90973c96ad51104572835b239cba59e85a47.png" src="../../_images/5d6196cf9a114c2c142ce39ecb5c90973c96ad51104572835b239cba59e85a47.png" />
+</div>
+</div>
+</section>
+<section id="editcount">
+<h2>Editcount<a class="headerlink" href="#editcount" title="Link to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="p">(</span>
+    <span class="n">df_enriched</span><span class="p">[</span><span class="n">df_enriched</span><span class="p">[</span><span class="s2">&quot;user_type&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;Registered&quot;</span><span class="p">]</span>
+    <span class="o">.</span><span class="n">assign</span><span class="p">(</span>
+        <span class="n">weaponised_binary</span><span class="o">=</span><span class="k">lambda</span> <span class="n">d</span><span class="p">:</span> <span class="n">d</span><span class="p">[</span><span class="s2">&quot;weaponised&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">eq</span><span class="p">(</span><span class="s2">&quot;Weaponised&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">),</span>
+        <span class="n">editcount_bin</span><span class="o">=</span><span class="k">lambda</span> <span class="n">d</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">qcut</span><span class="p">(</span><span class="n">d</span><span class="p">[</span><span class="s2">&quot;editcount&quot;</span><span class="p">],</span> <span class="n">q</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">duplicates</span><span class="o">=</span><span class="s2">&quot;drop&quot;</span><span class="p">)</span>
+    <span class="p">)</span>
+    <span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s2">&quot;editcount_bin&quot;</span><span class="p">)[</span><span class="s2">&quot;weaponised_binary&quot;</span><span class="p">]</span>
+    <span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+    <span class="o">.</span><span class="n">mul</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
+    <span class="o">.</span><span class="n">plot</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span>
+        <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">5</span><span class="p">),</span>
+        <span class="n">title</span><span class="o">=</span><span class="s2">&quot;Weaponisation Rate vs Editcount (Registered Users Only)&quot;</span><span class="p">,</span>
+        <span class="n">ylabel</span><span class="o">=</span><span class="s2">&quot;Weaponised Edits (%)&quot;</span><span class="p">,</span>
+        <span class="n">rot</span><span class="o">=</span><span class="mi">45</span>
+    <span class="p">)</span>
+<span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/var/folders/t4/w6j9k5hs52b5jx9px2689lzc0000gn/T/ipykernel_88019/548309439.py:7: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  .groupby(&quot;editcount_bin&quot;)[&quot;weaponised_binary&quot;]
+</pre></div>
+</div>
+<img alt="../../_images/edf6d1d52a59199654d305e4c0faf5e2faa8e95667b10adf02391218f4a9eb8d.png" src="../../_images/edf6d1d52a59199654d305e4c0faf5e2faa8e95667b10adf02391218f4a9eb8d.png" />
+</div>
+</div>
+</section>
+<section id="account-age-and-editcount">
+<h2>Account age and editcount<a class="headerlink" href="#account-age-and-editcount" title="Link to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">wanna_save</span> <span class="o">=</span> <span class="kc">False</span>
+
+<span class="n">df_enriched_age</span> <span class="o">=</span> <span class="n">compute_account_age</span><span class="p">(</span><span class="n">df_enriched</span><span class="p">)</span>
+
+<span class="n">df_reg</span> <span class="o">=</span> <span class="n">df_enriched_age</span><span class="p">[</span><span class="n">df_enriched_age</span><span class="p">[</span><span class="s2">&quot;user_type&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;Registered&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+
+<span class="n">df_reg</span><span class="p">[</span><span class="s2">&quot;weaponised_binary&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_reg</span><span class="p">[</span><span class="s2">&quot;weaponised&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">eq</span><span class="p">(</span><span class="s2">&quot;Weaponised&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+
+<span class="n">df_reg</span><span class="p">[</span><span class="s2">&quot;account_age_years&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_reg</span><span class="p">[</span><span class="s2">&quot;account_age_days&quot;</span><span class="p">]</span> <span class="o">//</span> <span class="mi">365</span>
+
+<span class="n">df_reg</span><span class="p">[</span><span class="s2">&quot;editcount_bin&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">qcut</span><span class="p">(</span><span class="n">df_reg</span><span class="p">[</span><span class="s2">&quot;editcount&quot;</span><span class="p">],</span> <span class="n">q</span><span class="o">=</span><span class="mi">6</span><span class="p">,</span> <span class="n">duplicates</span><span class="o">=</span><span class="s2">&quot;drop&quot;</span><span class="p">)</span>
+<span class="n">df_reg</span><span class="p">[</span><span class="s2">&quot;age_bin&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">qcut</span><span class="p">(</span><span class="n">df_reg</span><span class="p">[</span><span class="s2">&quot;account_age_years&quot;</span><span class="p">],</span> <span class="n">q</span><span class="o">=</span><span class="mi">6</span><span class="p">,</span> <span class="n">duplicates</span><span class="o">=</span><span class="s2">&quot;drop&quot;</span><span class="p">)</span>
+
+<span class="n">pivot</span> <span class="o">=</span> <span class="p">(</span>
+    <span class="n">df_reg</span>
+    <span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;age_bin&quot;</span><span class="p">,</span> <span class="s2">&quot;editcount_bin&quot;</span><span class="p">])[</span><span class="s2">&quot;weaponised_binary&quot;</span><span class="p">]</span>
+    <span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+    <span class="o">.</span><span class="n">mul</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
+    <span class="o">.</span><span class="n">unstack</span><span class="p">()</span>
+<span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">heatmap</span><span class="p">(</span>
+    <span class="n">pivot</span><span class="p">,</span>
+    <span class="n">cmap</span><span class="o">=</span><span class="s2">&quot;coolwarm&quot;</span><span class="p">,</span>
+    <span class="n">annot</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+    <span class="n">fmt</span><span class="o">=</span><span class="s2">&quot;.1f&quot;</span><span class="p">,</span>
+    <span class="n">cbar_kws</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Weaponised Edits (%)&quot;</span><span class="p">}</span>
+<span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Weaponisation Rate by Account Age and Edit Count</span><span class="se">\n</span><span class="s2">(Registered Users)&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;Edit Count (Quantile Bins)&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;Account Age (Quantile Bins)&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
+<span class="k">if</span> <span class="n">wanna_save</span><span class="p">:</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span>
+        <span class="s2">&quot;../../plots/Small Database Analysis/Weaponisation Rate by Account Age and Edit Count</span><span class="se">\n</span><span class="s2">(Registered Users).png&quot;</span><span class="p">,</span>
+        <span class="n">dpi</span><span class="o">=</span><span class="mi">300</span><span class="p">,</span> <span class="n">bbox_inches</span><span class="o">=</span><span class="s2">&quot;tight&quot;</span>
+    <span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/var/folders/t4/w6j9k5hs52b5jx9px2689lzc0000gn/T/ipykernel_88019/2619176266.py:16: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  .groupby([&quot;age_bin&quot;, &quot;editcount_bin&quot;])[&quot;weaponised_binary&quot;]
+</pre></div>
+</div>
+<img alt="../../_images/0046b4cc538f9ba0cf338c45839b9629d524b5dc17668e607a9e6a91d5228050.png" src="../../_images/0046b4cc538f9ba0cf338c45839b9629d524b5dc17668e607a9e6a91d5228050.png" />
+</div>
+</div>
+</section>
+<section id="groups">
+<h2>Groups<a class="headerlink" href="#groups" title="Link to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">ast</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">parse_groups</span><span class="p">(</span><span class="n">val</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">pd</span><span class="o">.</span><span class="n">isna</span><span class="p">(</span><span class="n">val</span><span class="p">):</span>
+        <span class="k">return</span> <span class="p">[]</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">[</span><span class="n">g</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="k">for</span> <span class="n">g</span> <span class="ow">in</span> <span class="n">ast</span><span class="o">.</span><span class="n">literal_eval</span><span class="p">(</span><span class="n">val</span><span class="p">)]</span>
+    <span class="k">except</span> <span class="ne">Exception</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">[]</span>
+
+<span class="n">df_enriched</span><span class="p">[</span><span class="s2">&quot;groups&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_enriched</span><span class="p">[</span><span class="s2">&quot;groups&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">parse_groups</span><span class="p">)</span>
+
+<span class="n">all_groups</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="n">g</span>
+    <span class="k">for</span> <span class="n">groups</span> <span class="ow">in</span> <span class="n">df_enriched</span><span class="p">[</span><span class="s2">&quot;groups&quot;</span><span class="p">]</span>
+    <span class="k">for</span> <span class="n">g</span> <span class="ow">in</span> <span class="n">groups</span>
+<span class="p">]</span>
+
+<span class="n">unique_groups</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">all_groups</span><span class="p">))</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Number of unique rights: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">unique_groups</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">g</span> <span class="ow">in</span> <span class="n">unique_groups</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;-&quot;</span><span class="p">,</span> <span class="n">g</span><span class="p">)</span>
+
+<span class="n">df_enriched</span><span class="p">[</span><span class="s2">&quot;groups&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_enriched</span><span class="p">[</span><span class="s2">&quot;groups&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span>
+    <span class="k">lambda</span> <span class="n">g</span><span class="p">:</span> <span class="p">[</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">g</span> <span class="k">if</span> <span class="n">x</span> <span class="o">!=</span> <span class="s2">&quot;*&quot;</span><span class="p">]</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Number of unique rights: 24
+- *
+- abusefilter
+- abusefilter-helper
+- accountcreator
+- autoconfirmed
+- autoreviewer
+- bot
+- bureaucrat
+- checkuser
+- eventcoordinator
+- extendedconfirmed
+- extendedmover
+- filemover
+- ipblock-exempt
+- massmessage-sender
+- oathauth-twofactorauth
+- patroller
+- reviewer
+- rollbacker
+- suppress
+- sysop
+- templateeditor
+- temporary-account-viewer
+- user
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_groups</span> <span class="o">=</span> <span class="n">df_enriched</span><span class="o">.</span><span class="n">explode</span><span class="p">(</span><span class="s2">&quot;groups&quot;</span><span class="p">)</span>
+<span class="n">df_groups</span> <span class="o">=</span> <span class="n">df_groups</span><span class="p">[</span><span class="n">df_groups</span><span class="p">[</span><span class="s2">&quot;groups&quot;</span><span class="p">]</span> <span class="o">!=</span> <span class="s2">&quot;&quot;</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="p">(</span>
+    <span class="n">df_groups</span>
+    <span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s2">&quot;groups&quot;</span><span class="p">)[</span><span class="s2">&quot;weaponised&quot;</span><span class="p">]</span>
+    <span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">s</span><span class="p">:</span> <span class="p">(</span><span class="n">s</span> <span class="o">==</span> <span class="s2">&quot;Weaponised&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span> <span class="o">*</span> <span class="mi">100</span><span class="p">)</span>
+    <span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+    <span class="o">.</span><span class="n">plot</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span><span class="mi">5</span><span class="p">))</span>
+<span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;Weaponised Edits (%)&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Weaponisation Rate by User Rights&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../../_images/a73e8ad52fe756641faa76617708bd469be7da713c8d3f903b00713a16b67eae.png" src="../../_images/a73e8ad52fe756641faa76617708bd469be7da713c8d3f903b00713a16b67eae.png" />
+</div>
+</div>
+</section>
+<section id="user-rights-log">
+<h2>User Rights Log<a class="headerlink" href="#user-rights-log" title="Link to this heading">#</a></h2>
+<p>We try to web scrap a web site that keeps the log of the user rights chnged over time. Having access to this data will allow us to know what was the rights of a certain user at a certain moment when a edit from him was made in a certain time. This leads us to go from a static analysis to a dynamic-time dependant- analysis</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">bs4</span><span class="w"> </span><span class="kn">import</span> <span class="n">BeautifulSoup</span>
+
+<span class="n">URL_TEMPLATE</span> <span class="o">=</span> <span class="s2">&quot;https://xtools.wmcloud.org/ec-rightschanges/en.wikipedia.org/</span><span class="si">{username}</span><span class="s2">&quot;</span>
+<span class="n">HEADERS</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;User-Agent&quot;</span><span class="p">:</span> <span class="s2">&quot;DH_Project/1.0 (https://www.epfl.ch/labs/dhlab/; maxime.garambois@epfl.ch)&quot;</span>
+<span class="p">}</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">scrape_xtools_rights_changes</span><span class="p">(</span><span class="n">username</span><span class="p">):</span>
+    <span class="n">url</span> <span class="o">=</span> <span class="n">URL_TEMPLATE</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">username</span><span class="o">=</span><span class="n">username</span><span class="p">)</span>
+    <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">HEADERS</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">response</span><span class="o">.</span><span class="n">status_code</span> <span class="o">!=</span> <span class="mi">200</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;user&quot;</span><span class="p">:</span> <span class="n">username</span><span class="p">,</span> <span class="s2">&quot;error&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;HTTP </span><span class="si">{</span><span class="n">response</span><span class="o">.</span><span class="n">status_code</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">}</span>
+
+    <span class="n">soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">text</span><span class="p">,</span> <span class="s2">&quot;html.parser&quot;</span><span class="p">)</span>
+
+    <span class="c1"># Find the rights changes table</span>
+    <span class="n">table</span> <span class="o">=</span> <span class="n">soup</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;table&quot;</span><span class="p">,</span> <span class="n">class_</span><span class="o">=</span><span class="k">lambda</span> <span class="n">c</span><span class="p">:</span> <span class="n">c</span> <span class="ow">and</span> <span class="s2">&quot;rightschanges-table&quot;</span> <span class="ow">in</span> <span class="n">c</span><span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">table</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;user&quot;</span><span class="p">:</span> <span class="n">username</span><span class="p">,</span> <span class="s2">&quot;error&quot;</span><span class="p">:</span> <span class="s2">&quot;No table found (user may have no rights changes)&quot;</span><span class="p">}</span>
+
+    <span class="n">rows</span> <span class="o">=</span> <span class="n">table</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;tbody&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s2">&quot;tr&quot;</span><span class="p">)</span>
+
+    <span class="n">changes</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">rows</span><span class="p">:</span>
+        <span class="n">cols</span> <span class="o">=</span> <span class="p">[</span><span class="n">c</span><span class="o">.</span><span class="n">get_text</span><span class="p">(</span><span class="n">strip</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">row</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s2">&quot;td&quot;</span><span class="p">)]</span>
+        
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">cols</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">4</span><span class="p">:</span>
+            <span class="k">continue</span>
+            
+        <span class="n">change</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s2">&quot;timestamp&quot;</span><span class="p">:</span> <span class="n">cols</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span>
+            <span class="s2">&quot;rights&quot;</span><span class="p">:</span> <span class="n">cols</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span>
+            <span class="s2">&quot;performer&quot;</span><span class="p">:</span> <span class="n">cols</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span>
+            <span class="s2">&quot;summary&quot;</span><span class="p">:</span> <span class="n">cols</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span>
+        <span class="p">}</span>
+        <span class="n">changes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">change</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="p">{</span>
+        <span class="s2">&quot;user&quot;</span><span class="p">:</span> <span class="n">username</span><span class="p">,</span>
+        <span class="s2">&quot;rights_changes&quot;</span><span class="p">:</span> <span class="n">changes</span>
+    <span class="p">}</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">build_dataframe_from_groups_change</span><span class="p">(</span><span class="n">username</span><span class="p">):</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="n">scrape_xtools_rights_changes</span><span class="p">(</span><span class="n">username</span><span class="p">)</span>
+
+    <span class="c1"># If no rights_changes key, return an empty dataframe with correct columns</span>
+    <span class="k">if</span> <span class="s2">&quot;rights_changes&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;lol&#39;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;timestamp&quot;</span><span class="p">,</span> <span class="s2">&quot;rights&quot;</span><span class="p">,</span> <span class="s2">&quot;performer&quot;</span><span class="p">,</span> <span class="s2">&quot;summary&quot;</span><span class="p">,</span> <span class="s2">&quot;user&quot;</span><span class="p">])</span>
+
+    <span class="n">df_data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s2">&quot;rights_changes&quot;</span><span class="p">])</span>
+    <span class="n">df_data</span><span class="p">[</span><span class="s2">&quot;user&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;user&quot;</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">df_data</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">run_rights_change_scraping_one_batch</span><span class="p">(</span><span class="n">sublists</span><span class="p">,</span> <span class="n">batch_idx</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Processes exactly ONE sublist (batch) and then stops.</span>
+<span class="sd">    batch_idx: index of the sublist to process (0-based)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">df_list</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="n">batch</span> <span class="o">=</span> <span class="n">sublists</span><span class="p">[</span><span class="n">batch_idx</span><span class="p">]</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Processing batch </span><span class="si">{</span><span class="n">batch_idx</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">sublists</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+    <span class="k">for</span> <span class="n">user</span> <span class="ow">in</span> <span class="n">batch</span><span class="p">:</span>
+        <span class="n">df_metadata</span> <span class="o">=</span> <span class="n">build_dataframe_from_groups_change</span><span class="p">(</span><span class="n">user</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">df_metadata</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+        <span class="n">df_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">df_metadata</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">df_list</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">()</span>
+
+    <span class="n">df_batch</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">df_list</span><span class="p">,</span> <span class="n">ignore_index</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Batch completed. Stopping execution.&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">df_batch</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "ada"
+        },
+        kernelOptions: {
+            name: "ada",
+            path: "./analysis/weaponized_vs_nonweaponized"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'ada'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="users_contributions.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">User Contributions Analysis</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="users_motivations.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Users motivations</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#retrieved-parameters-and-their-meaning">Retrieved Parameters and Their Meaning</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scope-of-the-notebook">Scope of the Notebook</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#research-objective">Research Objective</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gender">Gender</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#block">Block</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#registration">Registration</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#editcount">Editcount</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#account-age-and-editcount">Account age and editcount</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#groups">Groups</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#user-rights-log">User Rights Log</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Maxime Garambois
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2026.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+# Conclusions and future directions
+
+## Chapter map
+- Key findings
+- Control analysis (music dataset)
+- Limitations
+- Future work
+
+## Key findings
+- Registered vs IP contrasts
+- Taxonomy differences
+- Structural vs semantic manipulation insights
+
+## Control analysis
+- Rationale for control group
+- Pipeline replication
+- Dataset description
+- Next steps (classification + comparison)
+
+## Limitations
+- Label validity (LLM heuristics)
+- Temporal metadata constraints
+- Scope constraints (English Wikipedia, fixed article set)
+
+## Notebooks in this chapter
+- {ref}`conclusions_future_directions`
+- {ref}`control_analysis`
+- {ref}`limitations`

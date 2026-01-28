@@ -1,0 +1,37 @@
+format: jb-book
+root: welcome
+
+chapters:
+  - file: introduction
+
+  - file: data/index
+    sections:
+      - file: data/data_collection
+      - file: data/data_structure
+
+  - file: analysis/weaponized_vs_nonweaponized/index
+    sections:
+      - file: analysis/weaponized_vs_nonweaponized/datasets_overview
+      - file: analysis/weaponized_vs_nonweaponized/users_contributions
+      - file: analysis/weaponized_vs_nonweaponized/users_metadata
+      - file: analysis/weaponized_vs_nonweaponized/users_motivations
+      #- file: analysis/weaponized_vs_nonweaponized/coedited_graph
+      #- file: analysis/weaponized_vs_nonweaponized/ip_geolocation
+
+  - file: analysis/finegrained_analysis/index
+    sections:
+      - file: analysis/finegrained_analysis/context
+      #- file: analysis/finegrained_analysis/finegrained_analysis.ipynb
+
+  - file: policy/index
+    sections:
+      - file: policy/context
+      - file: policy/policy_in_details
+      - file: policy/policy_in_nutshell
+      - file: policy/article_analysis
+
+  - file: conclusions/index
+    sections:
+      - file: conclusions/conclusions_future_directions
+      - file: conclusions/control_analysis
+      - file: conclusions/limitations
